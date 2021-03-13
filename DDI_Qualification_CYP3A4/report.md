@@ -3,11 +3,11 @@
 
 
 
-| Version                         | 1.1-OSP9.1                                                   |
+| Version                         | x.x-OSPy.y                                                   |
 | ------------------------------- | ------------------------------------------------------------ |
-| Qualification Plan Release      | https://github.com/Open-Systems-Pharmacology/Qualification-DDI-CYP3A4/releases/tag/v1.1 |
-| OSP Version                     | 9.1                                                          |
-| Qualification Framework Version | 2.2                                                          |
+| Qualification Plan Release      | https://github.com/Open-Systems-Pharmacology/Qualification-DDI-CYP3A4/releases/tag/vx.x |
+| OSP Version                     | y.y                                                          |
+| Qualification Framework Version | z.z                                                          |
 
 
 
@@ -108,11 +108,11 @@ The respective *qualification plan* to produce this *qualification report* is tr
 
 Please refer to the [Appendix](#5-Appendix) to learn more details:
 
-- An overview over the Open Systems Pharmacology Suite is given in chapter [Section 5.1](#51-Open-Systems-Pharmacology-Suite-(OSPS)-Introduction)
+- An overview over the Open Systems Pharmacology Suite is given in chapter [Section 5.1](#51-Open-Systems-Pharmacology-Suite-OSPS-Introduction)
 
 - [Section 5.2](#52-Mathematical-Implementation-of-Drug-Drug-Interactions) shows the implementation of the underlying mathematical equations for drug-drug interactions in the OSP suite.
 
-- A detailed general description of the performed qualification workflow (*qualification plan*, *qualification report*, etc.) can be found in chapter [Section 5.3](#53-Automatic-(re)-qualification-workflow).
+- A detailed general description of the performed qualification workflow (*qualification plan*, *qualification report*, etc.) can be found in chapter [Section 5.3](#53-Automatic-re-qualification-workflow).
 
   
 
@@ -556,9 +556,9 @@ In the study by [Eap 2004](#4-References), the induction of CYP3A4 by rifampicin
 | 344    | CYP3A4 | Rifampicin / midazolam | Rifampicin: **600** mg po once daily (6 doses)<br />Midazolam: 7.5 mg  **PO** single dose, **24** h after **6<sup>th</sup>** rifampicin dose |                                                              | [Link 2008](#4-References)            |
 | 389    | CYP3A4 | Rifampicin / midazolam | Rifampicin: **600** mg po once daily (5 doses)<br />Midazolam: 1 mg **IV** single dose, **10** h after **5<sup>th</sup>** rifampicin dose |                                                              | [Phimmasone 2001](#4-References)      |
 | 1098   | CYP3A4 | Rifampicin / midazolam | Rifampicin: **600** mg po SD<br />Midazolam: 10 µg  **PO** single dose, **simultaneous** with rifampicin dose |                                                              | [Prueksaritanont 2017](#4-References) |
-| 392    | CYP3A4 | Rifampicin / midazolam | Rifampicin: **600** mg po once daily (4 weeks)<br />Midazolam: 2 mg **PO**  single dose, **simultaneous** with **28<sup>th</sup>** rifampicin dose | PK data of midazolam admintsered 28 days after the last rifampicin dose served as *control* (reference) | [Reitman 2011](#4-References)         |
-| 393    | CYP3A4 | Rifampicin / midazolam | Rifampicin: **600** mg po once daily (4 weeks)<br />Midazolam: 2 mg **PO** single dose, **7 days** after **28<sup>th</sup>** rifampicin dose | PK data of midazolam admintsered 28 days after the last rifampicin dose served as *control* (reference) | [Reitman 2011](#4-References)         |
-| 394    | CYP3A4 | Rifampicin / midazolam | Rifampicin: **600** mg po once daily (4 weeks)<br />Midazolam: 2 mg **PO** single dose, **14 days** after **28<sup>th</sup>** rifampicin dose | PK data of midazolam admintsered 28 days after the last rifampicin dose served as *control* (reference) | [Reitman 2011](#4-References)         |
+| 392    | CYP3A4 | Rifampicin / midazolam | Rifampicin: **600** mg po once daily (4 weeks)<br />Midazolam: 2 mg **PO**  single dose, **simultaneous** with **28<sup>th</sup>** rifampicin dose | PK data of midazolam administered 28 days after the last rifampicin dose served as *control* (reference) | [Reitman 2011](#4-References)         |
+| 393    | CYP3A4 | Rifampicin / midazolam | Rifampicin: **600** mg po once daily (4 weeks)<br />Midazolam: 2 mg **PO** single dose, **7 days** after **28<sup>th</sup>** rifampicin dose | PK data of midazolam administered 28 days after the last rifampicin dose served as *control* (reference) | [Reitman 2011](#4-References)         |
+| 394    | CYP3A4 | Rifampicin / midazolam | Rifampicin: **600** mg po once daily (4 weeks)<br />Midazolam: 2 mg **PO** single dose, **14 days** after **28<sup>th</sup>** rifampicin dose | PK data of midazolam administered 28 days after the last rifampicin dose served as *control* (reference) | [Reitman 2011](#4-References)         |
 | 1092   | CYP3A4 | Rifampicin / midazolam | Rifampicin: **600** mg po once daily (10 doses)<br  />Midazolam: 2.5 mg **IV** single dose, **simultaneous** h with **10<sup>th</sup>**  rifampicin dose | Subjects received a 1 mg midazolam dose in control phase. Observed reported dose-normalized AUCR back-calculated to non dose-normalized AUCR. | [Shin 2013](#4-References)            |
 | 1095   | CYP3A4 | Rifampicin / midazolam | Rifampicin: **600** mg po once daily (10 doses)<br  />Midazolam: 2.5 mg **IV** single dose, **simultaneous** h with **10<sup>th</sup>**  rifampicin dose | Subjects received a 1 mg midazolam dose in control phase. Observed reported dose-normalized AUCR back-calculated to non dose-normalized AUCR. | [Shin 2016](#4-References)            |
 | 422    | CYP3A4 | Rifampicin / midazolam | Rifampicin: **600** mg po once daily (7 doses)<br />Midazolam: 0.05 mg/kg **IV** single dose, **12** h after **12<sup>th</sup>** rifampicin dose |                                                              | [Szalat 2007](#4-References)          |
@@ -566,6 +566,7 @@ In the study by [Eap 2004](#4-References), the induction of CYP3A4 by rifampicin
 | 204 | CYP3A4 | Rifampicin / midazolam | Rifampicin: **10** mg po once daily (11 doses)<br />Midazolam: 1 mg **PO** single dose, **12** h after **8<sup>th</sup>** rifampicin dose | In the study midazolam was coadministered with either etonogestrel, dienogest, drospirenone, levonorgestrel or norethindrone. | [Wiesinger 2020](#4-References) |
 | 205 | CYP3A4 | Rifampicin / midazolam | Rifampicin: 11 doses of **10** mg po once daily, followed by 11 doses of **600** mg po once daily<br />Midazolam: 1 mg **PO** single dose, **12** h after **8<sup>th</sup>** 600 mg rifampicin dose (after the 19<sup>th</sup> overall rifampicin dose) | In the study midazolam was coadministered with either etonogestrel, dienogest, drospirenone, levonorgestrel or norethindrone. | [Wiesinger 2020](#4-References) |
 | 202    | CYP3A4 | Rifampicin / midazolam | Rifampicin: **600** mg po once daily (10 doses)<br />Midazolam: 2 mg **IV** single dose, **24** h after **10<sup>th</sup>** rifampicin dose | Only assessment in CYP3A5\*3/\*3 genotype subjects simulated.<br />Subjects received a 1 mg midazolam dose in control phase. Observed reported dose-normalized AUCR back-calculated to non dose-normalized AUCR. | [Yu 2004](#4-References)              |
+
 ### Rifampicin - Triazolam DDI
 The release of the snapshot containing the respective simulations can be found here:
 https://github.com/Open-Systems-Pharmacology/Rifampicin-Triazolam-DDI/releases/tag/v1.1
@@ -642,15 +643,15 @@ In the plots,
 
 ![004_plotDDIRatioCMAXResidualsVsObserved.png](images/002_2_Qualification_of_Use_Case_CYP3A4-mediated_DDI/004_plotDDIRatioCMAXResidualsVsObserved.png)
 
-GMFE (AUC) = 1.386372 
+GMFE (AUC) = 1.422527 
 
-GMFE (CMAX) = 1.368272 
+GMFE (CMAX) = 1.368173 
 
 |AUC                       |Number|Ratio [%]|
 |-------------------------:|-----:|--------:|
 |Points total              |135   |-        |
-|Points within Guest et al.|99    |73.3333  |
-|Points within 2-fold      |118   |87.4074  |
+|Points within Guest et al.|95    |70.3704  |
+|Points within 2-fold      |117   |86.6667  |
 
 |CMAX                      |Number|Ratio [%]|
 |-------------------------:|-----:|--------:|
@@ -660,141 +661,141 @@ GMFE (CMAX) = 1.368272
 
 |DataID|Perpetrator                                                                                                                                                                                                                       |Victim                  |Predicted AUC Ratio|Observed AUC Ratio|Pred/Obs AUC Ratio|Predicted CMAX Ratio|Observed CMAX Ratio|Pred/Obs CMAX Ratio|Reference           |
 |-----:|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|-----------------------:|------------------:|-----------------:|-----------------:|-------------------:|------------------:|------------------:|-------------------:|
-|1344  |Cimetidine, 1200 mg, IV, MD OD (2 days)                                                                                                                                                                                           |Alfentanil, IV          |1.0973             |2.8031            |0.39144           |1.0066              |-                  |-                  |Kienlen 1993        |
-|1332  |Cimetidine, 300 mg, PO, MD QID (1 day)                                                                                                                                                                                            |Alprazolam, PO          |1.0087             |1.581             |0.63806           |1.0031              |1.0323             |0.97175            |Abernethy 1983      |
-|1340  |Cimetidine, 200/400 mg, PO, (200mg): MD TID (17 days); (400mg): OD (17 days)                                                                                                                                                      |Alprazolam, PO          |1.0176             |1.7279            |0.58892           |1.0101              |1.8187             |0.55539            |Pourbaix 1985       |
-|1319  |Cimetidine, 300 mg, PO, MD QID (2 days)                                                                                                                                                                                           |Midazolam, IV           |1.0103             |0.89256           |1.1319            |1.0001              |-                  |-                  |Greenblatt 1986     |
-|1321  |Cimetidine, 300 mg, PO, MD QID (2 days)                                                                                                                                                                                           |Midazolam, PO           |1.1933             |1.1329            |1.0533            |1.1005              |1.0556             |1.0426             |Greenblatt 1986     |
-|1322  |Cimetidine, 800 mg, PO, SD                                                                                                                                                                                                        |Midazolam, PO           |1.4776             |1.4973            |0.9868            |1.2463              |-                  |-                  |Martinez 1999       |
-|1324  |Cimetidine, 400 mg, PO, MD: BID (1 day), OD (1 day)                                                                                                                                                                               |Midazolam, PO           |1.219              |1.3456            |0.9059            |1.1013              |-                  |-                  |Fee 1987            |
-|1326  |Cimetidine, 400 mg, PO, SD                                                                                                                                                                                                        |Midazolam, PO           |1.1117             |1.3649            |0.8145            |1.1054              |1.3732             |0.80497            |Salonen 1986        |
-|1346  |Cimetidine, 200/400 mg, PO, (200mg): MD TID (1 day), OD (1 day); (400mg): OD (1 day)                                                                                                                                              |Midazolam, PO           |1.0266             |2.016             |0.5092            |1.0235              |2.3833             |0.42945            |Elliott 1984        |
-|1334  |Cimetidine, 300 mg, PO, MD QID (1 day)                                                                                                                                                                                            |Triazolam, PO           |1.6217             |1.5429            |1.0511            |1.419               |1.2041             |1.1785             |Abernethy 1983      |
-|1336  |Cimetidine, 300 mg, PO, MD QID (2 days)                                                                                                                                                                                           |Triazolam, PO           |1.6243             |1.323             |1.2278            |1.4192              |1.3902             |1.0209             |Friedman 1988       |
-|1342  |Cimetidine, 200/400 mg, PO, (200mg): MD TID (17 days); (400mg): OD (17 days)                                                                                                                                                      |Triazolam, PO           |1.6829             |2.2013            |0.76453           |1.4623              |1.5109             |0.96785            |Pourbaix 1985       |
-|1338  |Cimetidine, 300 mg, PO, MD QID (1 day)                                                                                                                                                                                            |Triazolam, intraduodenal|1.4987             |1.5455            |0.96973           |1.3403              |1.3509             |0.99219            |Cox 1986            |
-|1328  |Cimetidine, 300 mg, PO, MD QID (9 days)                                                                                                                                                                                           |Verapamil, IV           |1.0029             |0.70769           |1.4172            |1                   |0.95924            |1.0425             |Smith 1984          |
-|1330  |Cimetidine, 300 mg, PO, MD QID (9 days)                                                                                                                                                                                           |Verapamil, PO           |1.5679             |1.3697            |1.1447            |1.47                |1.1333             |1.297              |Smith 1984          |
-|175   |Clarithromycin, 500 mg, PO, MD BID (7 days)                                                                                                                                                                                       |Midazolam, IV           |3.0722             |2.6667            |1.1521            |1.2413              |-                  |-                  |Gorski 1998         |
-|2027  |Clarithromycin, 500 mg, PO, MD BID (7 days)                                                                                                                                                                                       |Midazolam, IV           |3.0346             |3.2               |0.94832           |1.2413              |1.1724             |1.0587             |Quinney 2008        |
-|173   |Clarithromycin, 500 mg, PO, MD BID (7 days)                                                                                                                                                                                       |Midazolam, PO           |9.2134             |7.1429            |1.2899            |3.0765              |-                  |-                  |Gorski 1998         |
-|217   |Clarithromycin, 500 mg, PO, MD BID (7 days)                                                                                                                                                                                       |Midazolam, PO           |7.699              |8.3929            |0.91733           |2.7414              |3.7956             |0.72225            |Gurley 2006         |
-|223   |Clarithromycin, 500 mg, PO, MD BID (7 days)                                                                                                                                                                                       |Midazolam, PO           |7.699              |5.4834            |1.4041            |2.7414              |2.1743             |1.2608             |Gurley 2008a        |
-|354   |Clarithromycin, 500 mg, PO, MD BID (4 days)                                                                                                                                                                                       |Midazolam, PO           |6.0752             |5.5556            |1.0935            |2.6201              |-                  |-                  |Markert 2013        |
-|1099  |Clarithromycin, 500 mg, PO, MD BID (5 days)                                                                                                                                                                                       |Midazolam, PO           |7.8478             |4.84              |1.6215            |3.177               |2.69               |1.181              |Prueksaritanont 2017|
-|2030  |Clarithromycin, 500 mg, PO, MD BID (7 days)                                                                                                                                                                                       |Midazolam, PO           |9.3506             |8                 |1.1688            |3.1442              |2.75               |1.1433             |Quinney 2008        |
-|2004  |Clarithromycin, 250 mg, PO, MD BID (3 days)                                                                                                                                                                                       |Midazolam, PO           |1.4904             |1.9               |0.7844            |1.2571              |1.75               |0.71833            |van Dyk 2018        |
-|469   |Clarithromycin, 250 mg, PO, MD BID (5 days)                                                                                                                                                                                       |Midazolam, PO           |2.3752             |3.5716            |0.66504           |1.5939              |2.44               |0.65325            |Yeates 1996         |
-|1102  |Clarithromycin, 500 mg, PO, MD OD (2 days)                                                                                                                                                                                        |Triazolam, PO           |3.5783             |5.06              |0.70718           |2.0063              |1.968              |1.0195             |Greenblatt 1998a    |
-|779   |Erythromycin, 500 mg, PO, SD                                                                                                                                                                                                      |Alfentanil, IV          |1.0293             |1.0262            |1.0031            |1                   |-                  |-                  |Bartkowski 1989     |
-|780   |Erythromycin, 500 mg, PO, MD BID (6 days)                                                                                                                                                                                         |Alfentanil, IV          |1.6878             |1.4611            |1.1551            |1.0269              |-                  |-                  |Bartkowski 1989     |
-|777   |Erythromycin, 400 mg, PO, MD TID (10 days)                                                                                                                                                                                        |Alprazolam, PO          |1.7597             |2.4716            |0.71195           |1.0761              |1.1833             |0.90935            |Yasui 1996          |
-|781   |Erythromycin, 500 mg, PO, MD OD (2 days)                                                                                                                                                                                          |Triazolam, PO           |3.1233             |3.65              |0.85569           |1.8985              |1.768              |1.0738             |Greenblatt 1998a    |
-|757   |Erythromycin, 333 mg, PO, MD TID (3 days)                                                                                                                                                                                         |Triazolam, PO           |3.8725             |2.0597            |1.8802            |2.109               |1.4643             |1.4403             |Phillips 1986       |
-|420   |Erythromycin, 500 mg, PO, MD QID (5 days)                                                                                                                                                                                         |Midazolam, IV           |2.3576             |1.5978            |1.4755            |1.027               |-                  |-                  |Swart 2002          |
-|368   |Erythromycin, 500 mg, PO, MD TID (7 days)                                                                                                                                                                                         |Midazolam, IV           |2.0491             |1.9619            |1.0444            |1.0191              |-                  |-                  |Olkkola 1993        |
-|366   |Erythromycin, 500 mg, PO, MD TID (7 days)                                                                                                                                                                                         |Midazolam, PO           |3.8603             |4.0674            |0.94909           |1.8908              |2.7                |0.70029            |Olkkola 1993        |
-|471   |Erythromycin, 500 mg, PO, MD TID (3 days)                                                                                                                                                                                         |Midazolam, PO           |4.8526             |3.8137            |1.2724            |2.205               |2.7114             |0.81322            |Zimmermann 1996     |
-|362   |Erythromycin, 200 mg, PO, MD QID (2 days)                                                                                                                                                                                         |Midazolam, PO           |1.2854             |1.16              |1.1081            |0.82212             |0.90909            |0.90434            |Okudaira 2007       |
-|363   |Erythromycin, 200 mg, PO, MD QID (4 days)                                                                                                                                                                                         |Midazolam, PO           |1.6208             |1.69              |0.95908           |0.92675             |1.2                |0.77229            |Okudaira 2007       |
-|364   |Erythromycin, 200 mg, PO, MD QID (7 days)                                                                                                                                                                                         |Midazolam, PO           |1.7024             |1.69              |1.0073            |0.94964             |1.1727             |0.80977            |Okudaira 2007       |
-|828   |Erythromycin, 250 mg, PO, SD                                                                                                                                                                                                      |Midazolam, PO           |3.5088             |1.7178            |2.0426            |3.2106              |-                  |-                  |Carls 2014          |
-|829   |Erythromycin, 1000 mg, PO, SD                                                                                                                                                                                                     |Midazolam, PO           |4.066              |4.9912            |0.81463           |3.6258              |-                  |-                  |Carls 2014          |
-|1104  |Fluvoxamine, 50/100 mg, PO, MD OD (10 days), 50 mg day 1-3, then 100 mg                                                                                                                                                           |Alprazolam, PO          |1.006              |1.2551            |0.80147           |1.005               |1.1769             |0.85396            |Fleishaker 1994     |
-|1113  |Fluvoxamine, 50/100 mg, PO, MD OD (10 days), 50 mg day 1-3, then 100 mg                                                                                                                                                           |Alprazolam, PO          |1.025              |1.9631            |0.52213           |1.022               |1.8619             |0.54891            |Fleishaker 1994     |
-|2007  |Fluvoxamine, 50/100 mg, PO, MD BID (4 weeks), dose titration to 150 mg/day over 7 days: 50 mg in the evening for 3 days, 50 mg in the morning and evening for the next 3 days, then 50 mg in the morning and 100 mg in the evening|Midazolam, IV           |1.0403             |1.5               |0.69355           |1.0017              |-                  |-                  |Kashuba 1998        |
-|1089  |Fluvoxamine, 50/100 mg, PO, MD OD (12 days), titrated from 50 mg BID to 100 mg BID administered for 6 days                                                                                                                        |Midazolam, PO           |1.4031             |1.66              |0.84522           |1.2015              |1.63               |0.73709            |Lam 2003            |
-|1026  |Itraconazole, 200 mg, PO, MD OD (6 days)                                                                                                                                                                                          |Alprazolam, PO          |2.1733             |2.6627            |0.81622           |1.0994              |1.2868             |0.85432            |Yasui 1998          |
-|378   |Itraconazole, 200 mg, PO, MD OD (4 days)                                                                                                                                                                                          |Midazolam, IV           |2.2908             |3.2258            |0.71016           |1.0117              |-                  |-                  |Olkkola 1996        |
-|199   |Itraconazole, 200 mg, PO, MD OD (4 days)                                                                                                                                                                                          |Midazolam, IV           |2.4587             |3.3333            |0.73761           |1.0112              |-                  |-                  |Yu 2004             |
-|50    |Itraconazole, 100 mg, PO, MD OD (4 days)                                                                                                                                                                                          |Midazolam, PO           |3.4803             |5.7451            |0.60579           |1.9613              |2.5588             |0.7665             |Ahonen 1995         |
-|58    |Itraconazole, 200 mg, PO, MD OD (4 days)                                                                                                                                                                                          |Midazolam, PO           |4.8857             |7.97              |0.61301           |2.2277              |3.12               |0.71402            |Backman 1998        |
-|59    |Itraconazole, 200 mg, PO, MD OD (4 days)                                                                                                                                                                                          |Midazolam, PO           |1.1256             |2.63              |0.42797           |1.074               |1.92               |0.55939            |Backman 1998        |
-|370   |Itraconazole, 200 mg, PO, MD OD (4 days)                                                                                                                                                                                          |Midazolam, PO           |5.2868             |10.8              |0.48952           |2.2377              |3.4                |0.65813            |Olkkola 1994        |
-|377   |Itraconazole, 200 mg, PO, SD                                                                                                                                                                                                      |Midazolam, PO           |4.4916             |3.4               |1.3211            |2.1997              |1.8                |1.222              |Olkkola 1996        |
-|379   |Itraconazole, 200 mg, PO, MD OD (6 days)                                                                                                                                                                                          |Midazolam, PO           |6.244              |6.6               |0.94606           |2.5665              |2.5                |1.0266             |Olkkola 1996        |
-|1097  |Itraconazole, 200 mg, PO, MD OD (5 days)                                                                                                                                                                                          |Midazolam, PO           |19.3578            |7.04              |2.7497            |4.6651              |3.71               |1.2575             |Prueksaritanont 2017|
-|424   |Itraconazole, 50 mg, PO, SD                                                                                                                                                                                                       |Midazolam, PO           |3.2607             |2                 |1.6304            |2.2008              |-                  |-                  |Templeton 2010      |
-|425   |Itraconazole, 200 mg, PO, SD                                                                                                                                                                                                      |Midazolam, PO           |7.6015             |4.7               |1.6173            |3.4395              |-                  |-                  |Templeton 2010      |
-|426   |Itraconazole, 400 mg, PO, SD                                                                                                                                                                                                      |Midazolam, PO           |9.7471             |5.4               |1.805             |3.7303              |-                  |-                  |Templeton 2010      |
-|1078  |Itraconazole, 200 mg, PO, SD                                                                                                                                                                                                      |Triazolam, PO           |4.2175             |3.11              |1.3561            |1.9807              |1.41               |1.4048             |Neuvonen 1996       |
-|1079  |Itraconazole, 200 mg, PO, SD                                                                                                                                                                                                      |Triazolam, PO           |5.5923             |4.79              |1.1675            |2.4222              |1.76               |1.3763             |Neuvonen 1996       |
-|1080  |Itraconazole, 200 mg, PO, SD                                                                                                                                                                                                      |Triazolam, PO           |2.252              |4.63              |0.48639           |1.6681              |1.76               |0.94776            |Neuvonen 1996       |
-|1081  |Itraconazole, 200 mg, PO, SD                                                                                                                                                                                                      |Triazolam, PO           |2.0983             |3.82              |0.54928           |1.3854              |1.71               |0.81017            |Neuvonen 1996       |
-|1029  |Itraconazole, 200 mg, PO, MD OD (4 days)                                                                                                                                                                                          |Triazolam, PO           |6.3408             |19.0287           |0.33322           |2.5313              |2.6854             |0.94261            |Varhe 1994          |
-|1111  |Verapamil, 240 mg, PO, MD OD (7 days)                                                                                                                                                                                             |Midazolam, IV           |1.4027             |1.4524            |0.96579           |1.1019              |-                  |-                  |Wang 2005           |
-|1108  |Verapamil, 80 mg, PO, MD TID (2 days)                                                                                                                                                                                             |Midazolam, PO           |2.0138             |2.9167            |0.69043           |1.4415              |1.9692             |0.732              |Backman 1994        |
-|1116  |Verapamil, 240 mg, PO, MD OD (7 days)                                                                                                                                                                                             |Midazolam, PO           |1.6229             |3.5056            |0.46295           |1.3474              |-                  |-                  |Wang 2005           |
-|803   |Efavirenz, 600 mg, PO, MD OD (19 days)                                                                                                                                                                                            |Alfentanil, IV          |0.55982            |0.54              |1.0367            |0.92176             |1.0978             |0.83962            |Kharasch 2012       |
-|801   |Efavirenz, 600 mg, PO, MD OD (19 days)                                                                                                                                                                                            |Alfentanil, PO          |0.23488            |0.22              |1.0676            |0.35697             |0.42857            |0.83293            |Kharasch 2012       |
-|2045  |Efavirenz, 400 mg, PO, SD                                                                                                                                                                                                         |Midazolam, IV           |0.83136            |0.78538           |1.0586            |0.93223             |-                  |-                  |Mikus 2017          |
-|2048  |Efavirenz, 400 mg, PO, SD                                                                                                                                                                                                         |Midazolam, IV           |0.78761            |0.77712           |1.0135            |0.91054             |-                  |-                  |Mikus 2017          |
-|2050  |Efavirenz, 400 mg, PO, SD                                                                                                                                                                                                         |Midazolam, IV           |0.85881            |0.9375            |0.91607           |0.94266             |-                  |-                  |Mikus 2017          |
-|2052  |Efavirenz, 400 mg, PO, SD                                                                                                                                                                                                         |Midazolam, IV           |0.91313            |0.85377           |1.0695            |0.96565             |-                  |-                  |Mikus 2017          |
-|2054  |Efavirenz, 400 mg, PO, SD                                                                                                                                                                                                         |Midazolam, IV           |0.9501             |0.92217           |1.0303            |0.9806              |-                  |-                  |Mikus 2017          |
-|2041  |Efavirenz, 400 mg, PO, MD OD (14 days)                                                                                                                                                                                            |Midazolam, PO           |0.11474            |0.1027            |1.1172            |0.23823             |0.1806             |1.3191             |Katzenmaier 2010    |
-|2044  |Efavirenz, 400 mg, PO, SD                                                                                                                                                                                                         |Midazolam, PO           |0.52617            |0.59055           |0.89098           |0.64634             |-                  |-                  |Mikus 2017          |
-|2047  |Efavirenz, 400 mg, PO, SD                                                                                                                                                                                                         |Midazolam, PO           |0.54513            |0.61417           |0.88758           |0.6553              |-                  |-                  |Mikus 2017          |
-|2049  |Efavirenz, 400 mg, PO, SD                                                                                                                                                                                                         |Midazolam, PO           |0.70481            |0.76968           |0.91571           |0.7843              |-                  |-                  |Mikus 2017          |
-|2051  |Efavirenz, 400 mg, PO, SD                                                                                                                                                                                                         |Midazolam, PO           |0.819              |0.74803           |1.0949            |0.87157             |-                  |-                  |Mikus 2017          |
-|2053  |Efavirenz, 400 mg, PO, SD                                                                                                                                                                                                         |Midazolam, PO           |0.8959             |0.83661           |1.0709            |0.92682             |-                  |-                  |Mikus 2017          |
-|278   |Rifampicin, 600 mg, PO, MD OD (5 days)                                                                                                                                                                                            |Alfentanil, IV          |0.35971            |0.36301           |0.9909            |0.89694             |-                  |-                  |Kharasch 1997       |
-|283   |Rifampicin, 600 mg, PO, MD OD (6 days)                                                                                                                                                                                            |Alfentanil, IV          |0.48813            |0.375             |1.3017            |1.2012              |1.0033             |1.1972             |Kharasch 2004       |
-|299   |Rifampicin, 5 mg, PO, MD OD (6 days)                                                                                                                                                                                              |Alfentanil, IV          |0.98482            |0.83              |1.1865            |1.3091              |1.0392             |1.2597             |Kharasch 2011       |
-|300   |Rifampicin, 10 mg, PO, MD OD (6 days)                                                                                                                                                                                             |Alfentanil, IV          |0.84898            |0.75              |1.132             |1.2935              |1.049              |1.233              |Kharasch 2011       |
-|301   |Rifampicin, 25 mg, PO, MD OD (6 days)                                                                                                                                                                                             |Alfentanil, IV          |0.69486            |0.59              |1.1777            |1.2671              |1                  |1.2671             |Kharasch 2011       |
-|302   |Rifampicin, 75 mg, PO, MD OD (6 days)                                                                                                                                                                                             |Alfentanil, IV          |0.57588            |0.51              |1.1292            |1.2354              |1.0294             |1.2001             |Kharasch 2011       |
-|763   |Rifampicin, 600 mg, PO, MD OD (6 days)                                                                                                                                                                                            |Alfentanil, IV          |0.36202            |0.4               |0.90506           |0.89854             |-                  |-                  |Kharasch 2011b      |
-|767   |Rifampicin, 600 mg, PO, MD OD (6 days)                                                                                                                                                                                            |Alfentanil, IV          |0.35767            |0.4               |0.89416           |0.89637             |-                  |-                  |Kharasch 2011b      |
-|391   |Rifampicin, 600 mg, PO, MD OD (5 days)                                                                                                                                                                                            |Alfentanil, IV          |0.3631             |0.55              |0.66018           |0.89919             |-                  |-                  |Phimmasone 2001     |
-|288   |Rifampicin, 600 mg, PO, MD OD (6 days)                                                                                                                                                                                            |Alfentanil, PO          |0.039185           |0.045631          |0.85873           |0.087               |0.11111            |0.783              |Kharasch 2004       |
-|309   |Rifampicin, 5 mg, PO, MD OD (6 days)                                                                                                                                                                                              |Alfentanil, PO          |0.46114            |0.74              |0.62316           |0.59606             |0.86275            |0.69088            |Kharasch 2011       |
-|310   |Rifampicin, 10 mg, PO, MD OD (6 days)                                                                                                                                                                                             |Alfentanil, PO          |0.32464            |0.61              |0.5322            |0.46881             |0.86275            |0.5434             |Kharasch 2011       |
-|311   |Rifampicin, 25 mg, PO, MD OD (6 days)                                                                                                                                                                                             |Alfentanil, PO          |0.18765            |0.3               |0.62552           |0.31358             |0.4902             |0.63971            |Kharasch 2011       |
-|312   |Rifampicin, 75 mg, PO, MD OD (6 days)                                                                                                                                                                                             |Alfentanil, PO          |0.095594           |0.13              |0.73534           |0.18365             |0.2549             |0.72046            |Kharasch 2011       |
-|771   |Rifampicin, 600 mg, PO, MD OD (6 days)                                                                                                                                                                                            |Alfentanil, PO          |0.037949           |0.06              |0.63248           |0.083994            |-                  |-                  |Kharasch 2011b      |
-|775   |Rifampicin, 600 mg, PO, MD OD (6 days)                                                                                                                                                                                            |Alfentanil, PO          |0.037079           |0.06              |0.61798           |0.082592            |-                  |-                  |Kharasch 2011b      |
-|2009  |Rifampicin, 450 mg, PO, MD, q.d. for 5 days                                                                                                                                                                                       |Alprazolam, PO          |0.1875             |0.17935           |1.0455            |0.67772             |-                  |-                  |Gashaw 2003         |
-|2010  |Rifampicin, 450 mg, PO, MD, q.d. for 5 days                                                                                                                                                                                       |Alprazolam, PO          |0.96407            |0.91667           |1.0517            |0.9951              |-                  |-                  |Gashaw 2003         |
-|1001  |Rifampicin, 450 mg, PO, MD OD (4 days)                                                                                                                                                                                            |Alprazolam, PO          |0.19835            |0.11726           |1.6915            |0.68932             |0.63816            |1.0802             |Schmider 1999       |
-|179   |Rifampicin, 600 mg, PO, MD OD (7 days)                                                                                                                                                                                            |Midazolam, IV           |0.49105            |0.44898           |1.0937            |0.75209             |-                  |-                  |Gorski 2003         |
-|276   |Rifampicin, 600 mg, PO, MD OD (5 days)                                                                                                                                                                                            |Midazolam, IV           |0.47345            |0.37931           |1.2482            |0.90482             |-                  |-                  |Kharasch 1997       |
-|280   |Rifampicin, 600 mg, PO, MD OD (6 days)                                                                                                                                                                                            |Midazolam, IV           |0.47571            |0.52113           |0.91284           |0.90853             |1.01               |0.89957            |Kharasch 2004       |
-|294   |Rifampicin, 5 mg, PO, MD OD (6 days)                                                                                                                                                                                              |Midazolam, IV           |0.78053            |0.84              |0.9292            |0.98019             |1.0323             |0.94956            |Kharasch 2011       |
-|295   |Rifampicin, 10 mg, PO, MD OD (6 days)                                                                                                                                                                                             |Midazolam, IV           |0.69874            |0.77              |0.90746           |0.9682              |1.0645             |0.90952            |Kharasch 2011       |
-|296   |Rifampicin, 25 mg, PO, MD OD (6 days)                                                                                                                                                                                             |Midazolam, IV           |0.60481            |0.63              |0.96002           |0.9493              |0.83871            |1.1319             |Kharasch 2011       |
-|297   |Rifampicin, 75 mg, PO, MD OD (6 days)                                                                                                                                                                                             |Midazolam, IV           |0.53127            |0.6               |0.88544           |0.92855             |1.3226             |0.70208            |Kharasch 2011       |
-|2036  |Rifampicin, 600 mg, PO, MD OD (10 days)                                                                                                                                                                                           |Midazolam, IV           |1.1815             |1.15              |1.0274            |2.2563              |-                  |-                  |Kim 2018            |
-|342   |Rifampicin, 600 mg, PO, MD OD (6 days)                                                                                                                                                                                            |Midazolam, IV           |0.47026            |0.65501           |0.71794           |0.90365             |1.106              |0.81708            |Link 2008           |
-|389   |Rifampicin, 600 mg, PO, MD OD (5 days)                                                                                                                                                                                            |Midazolam, IV           |0.47603            |0.51              |0.93339           |0.907               |-                  |-                  |Phimmasone 2001     |
-|1092  |Rifampicin, 600 mg, PO, MD OD (10 days)                                                                                                                                                                                           |Midazolam, IV           |1.1815             |1.15              |1.0274            |2.2563              |-                  |-                  |Shin 2013           |
-|1095  |Rifampicin, 600 mg, PO, MD OD (10 days)                                                                                                                                                                                           |Midazolam, IV           |1.1815             |1.225             |0.96453           |2.2563              |1.775              |1.2712             |Shin 2016           |
-|422   |Rifampicin, 600 mg, PO, MD OD (7 days)                                                                                                                                                                                            |Midazolam, IV           |0.49105            |0.57947           |0.84742           |0.75222             |-                  |-                  |Szalat 2007         |
-|202   |Rifampicin, 600 mg, PO, MD OD (10 days)                                                                                                                                                                                           |Midazolam, IV           |0.83493            |0.83333           |1.0019            |1.8917              |-                  |-                  |Yu 2004             |
-|54    |Rifampicin, 600 mg, PO, MD OD (5 days)                                                                                                                                                                                            |Midazolam, PO           |0.038106           |0.041             |0.92941           |0.098048            |0.061818           |1.5861             |Backman 1996        |
-|56    |Rifampicin, 600 mg, PO, MD OD (5 days)                                                                                                                                                                                            |Midazolam, PO           |0.038143           |0.023             |1.6584            |0.098049            |0.054              |1.8157             |Backman 1998        |
-|57    |Rifampicin, 600 mg, PO, MD OD (5 days)                                                                                                                                                                                            |Midazolam, PO           |0.11806            |0.132             |0.89436           |0.22359             |0.202              |1.1069             |Backman 1998        |
-|113   |Rifampicin, 600 mg, PO, MD OD (9 days)                                                                                                                                                                                            |Midazolam, PO           |0.028237           |0.12449           |0.22682           |0.070021            |0.16957            |0.41294            |Chung 2006          |
-|132   |Rifampicin, 450 mg, PO, MD OD (5 days)                                                                                                                                                                                            |Midazolam, PO           |0.033781           |0.052239          |0.64666           |0.08487             |0.11154            |0.7609             |Eap 2004            |
-|177   |Rifampicin, 600 mg, PO, MD OD (7 days)                                                                                                                                                                                            |Midazolam, PO           |0.047557           |0.10335           |0.46015           |0.11675             |0.067039           |1.7415             |Gorski 2003         |
-|215   |Rifampicin, 300 mg, PO, MD BID (7 days)                                                                                                                                                                                           |Midazolam, PO           |0.043421           |0.057161          |0.75962           |0.10788             |0.12092            |0.89216            |Gurley 2006         |
-|221   |Rifampicin, 300 mg, PO, MD BID (7 days)                                                                                                                                                                                           |Midazolam, PO           |0.043421           |0.060317          |0.71987           |0.10788             |0.10762            |1.0023             |Gurley 2008a        |
-|286   |Rifampicin, 600 mg, PO, MD OD (6 days)                                                                                                                                                                                            |Midazolam, PO           |0.035796           |0.052632          |0.68013           |0.075637            |0.10989            |0.6883             |Kharasch 2004       |
-|304   |Rifampicin, 5 mg, PO, MD OD (6 days)                                                                                                                                                                                              |Midazolam, PO           |0.42307            |0.8               |0.52884           |0.55551             |0.8                |0.69438            |Kharasch 2011       |
-|305   |Rifampicin, 10 mg, PO, MD OD (6 days)                                                                                                                                                                                             |Midazolam, PO           |0.2916             |0.68              |0.42882           |0.42549             |0.93333            |0.45588            |Kharasch 2011       |
-|306   |Rifampicin, 25 mg, PO, MD OD (6 days)                                                                                                                                                                                             |Midazolam, PO           |0.16308            |0.4               |0.40769           |0.27343             |0.50667            |0.53966            |Kharasch 2011       |
-|307   |Rifampicin, 75 mg, PO, MD OD (6 days)                                                                                                                                                                                             |Midazolam, PO           |0.080927           |0.25              |0.32371           |0.15436             |0.34               |0.45399            |Kharasch 2011       |
-|344   |Rifampicin, 600 mg, PO, MD OD (6 days)                                                                                                                                                                                            |Midazolam, PO           |0.03022            |0.015549          |1.9435            |0.07709             |0.034865           |2.2111             |Link 2008           |
-|1098  |Rifampicin, 600 mg, PO, SD                                                                                                                                                                                                        |Midazolam, PO           |2.2424             |0.94              |2.3856            |1.88                |1.3                |1.4461             |Prueksaritanont 2017|
-|392   |Rifampicin, 600 mg, PO, MD OD (28 days)                                                                                                                                                                                           |Midazolam, PO           |0.20272            |0.123             |1.6481            |0.26564             |0.162              |1.6397             |Reitman 2011        |
-|393   |Rifampicin, 600 mg, PO, MD OD (28 days)                                                                                                                                                                                           |Midazolam, PO           |0.35111            |0.383             |0.91673           |0.48815             |0.403              |1.2113             |Reitman 2011        |
-|394   |Rifampicin, 600 mg, PO, MD OD (28 days)                                                                                                                                                                                           |Midazolam, PO           |0.91636            |0.815             |1.1244            |0.94285             |0.731              |1.2898             |Reitman 2011        |
-|2002  |Rifampicin, 300 mg, PO, MD OD (7 days)                                                                                                                                                                                            |Midazolam, PO           |0.041765           |0.25641           |0.16288           |0.08178             |0.375              |0.21808            |van Dyk 2018        |
-|204   |Rifampicin, 10 mg, PO, MD OD (22 days)                                                                                                                                                                                            |Midazolam, PO           |0.26865            |0.539             |0.49842           |0.40212             |0.63265            |0.6356             |Wiesinger 2020      |
-|205   |Rifampicin, 600 mg, PO, MD OD (22 days)                                                                                                                                                                                           |Midazolam, PO           |0.029255           |0.137             |0.21354           |0.06674             |0.18755            |0.35585            |Wiesinger 2020      |
-|1004  |Rifampicin, 600 mg, PO, MD OD (5 days)                                                                                                                                                                                            |Triazolam, PO           |0.033137           |0.051             |0.64975           |0.11455             |0.12414            |0.92277            |Villikka 1997       |
-|2056  |Rifampicin, 600 mg, PO, MD OD (13 days)                                                                                                                                                                                           |Verapamil, IV           |0.84349            |0.81865           |1.0303            |0.97751             |-                  |-                  |Barbarash 1988      |
-|2058  |Rifampicin, 600 mg, PO, MD OD (15 days)                                                                                                                                                                                           |Verapamil, PO           |0.10604            |0.06511           |1.6286            |0.14753             |0.036961           |3.9915             |Barbarash 1988      |
+|1344  |Cimetidine, 1200 mg, IV, MD OD (2 days)                                                                                                                                                                                           |Alfentanil, IV          |1.0772             |2.8031            |0.38427           |1.0055              |-                  |-                  |Kienlen 1993        |
+|1332  |Cimetidine, 300 mg, PO, MD QID (1 day)                                                                                                                                                                                            |Alprazolam, PO          |1.0068             |1.581             |0.63686           |1.0024              |1.0323             |0.97105            |Abernethy 1983      |
+|1340  |Cimetidine, 200/400 mg, PO, (200mg): MD TID (17 days); (400mg): OD (17 days)                                                                                                                                                      |Alprazolam, PO          |1.0198             |1.7279            |0.59019           |1.0112              |1.8187             |0.55598            |Pourbaix 1985       |
+|1319  |Cimetidine, 300 mg, PO, MD QID (2 days)                                                                                                                                                                                           |Midazolam, IV           |1.0097             |0.89256           |1.1313            |1.0001              |-                  |-                  |Greenblatt 1986     |
+|1321  |Cimetidine, 300 mg, PO, MD QID (2 days)                                                                                                                                                                                           |Midazolam, PO           |1.166              |1.1329            |1.0292            |1.0854              |1.0556             |1.0282             |Greenblatt 1986     |
+|1322  |Cimetidine, 800 mg, PO, SD                                                                                                                                                                                                        |Midazolam, PO           |1.4041             |1.4973            |0.93772           |1.2094              |-                  |-                  |Martinez 1999       |
+|1324  |Cimetidine, 400 mg, PO, MD: BID (1 day), OD (1 day)                                                                                                                                                                               |Midazolam, PO           |1.1891             |1.3456            |0.88368           |1.0872              |-                  |-                  |Fee 1987            |
+|1326  |Cimetidine, 400 mg, PO, SD                                                                                                                                                                                                        |Midazolam, PO           |1.0906             |1.3649            |0.79902           |1.0847              |1.3732             |0.78993            |Salonen 1986        |
+|1346  |Cimetidine, 200/400 mg, PO, (200mg): MD TID (1 day), OD (1 day); (400mg): OD (1 day)                                                                                                                                              |Midazolam, PO           |1.0217             |2.016             |0.5068            |1.0194              |2.3833             |0.42772            |Elliott 1984        |
+|1334  |Cimetidine, 300 mg, PO, MD QID (1 day)                                                                                                                                                                                            |Triazolam, PO           |1.5416             |1.5429            |0.99917           |1.3813              |1.2041             |1.1472             |Abernethy 1983      |
+|1336  |Cimetidine, 300 mg, PO, MD QID (2 days)                                                                                                                                                                                           |Triazolam, PO           |1.5452             |1.323             |1.168             |1.3818              |1.3902             |0.99399            |Friedman 1988       |
+|1342  |Cimetidine, 200/400 mg, PO, (200mg): MD TID (17 days); (400mg): OD (17 days)                                                                                                                                                      |Triazolam, PO           |1.6007             |2.2013            |0.72719           |1.4237              |1.5109             |0.94233            |Pourbaix 1985       |
+|1338  |Cimetidine, 300 mg, PO, MD QID (1 day)                                                                                                                                                                                            |Triazolam, intraduodenal|1.4377             |1.5455            |0.93027           |1.3194              |1.3509             |0.97667            |Cox 1986            |
+|1328  |Cimetidine, 300 mg, PO, MD QID (9 days)                                                                                                                                                                                           |Verapamil, IV           |1.0039             |0.70769           |1.4186            |1                   |0.95924            |1.0425             |Smith 1984          |
+|1330  |Cimetidine, 300 mg, PO, MD QID (9 days)                                                                                                                                                                                           |Verapamil, PO           |1.5006             |1.3697            |1.0956            |1.4091              |1.1333             |1.2433             |Smith 1984          |
+|175   |Clarithromycin, 500 mg, PO, MD BID (7 days)                                                                                                                                                                                       |Midazolam, IV           |4.9844             |2.6667            |1.8692            |1.2623              |-                  |-                  |Gorski 1998         |
+|2027  |Clarithromycin, 500 mg, PO, MD BID (7 days)                                                                                                                                                                                       |Midazolam, IV           |4.6435             |3.2               |1.4511            |1.2623              |1.1724             |1.0766             |Quinney 2008        |
+|173   |Clarithromycin, 500 mg, PO, MD BID (7 days)                                                                                                                                                                                       |Midazolam, PO           |13.8485            |7.1429            |1.9388            |3.1107              |-                  |-                  |Gorski 1998         |
+|217   |Clarithromycin, 500 mg, PO, MD BID (7 days)                                                                                                                                                                                       |Midazolam, PO           |10.7777            |8.3929            |1.2842            |2.8005              |3.7956             |0.73783            |Gurley 2006         |
+|223   |Clarithromycin, 500 mg, PO, MD BID (7 days)                                                                                                                                                                                       |Midazolam, PO           |10.7777            |5.4834            |1.9655            |2.8005              |2.1743             |1.288              |Gurley 2008a        |
+|354   |Clarithromycin, 500 mg, PO, MD BID (4 days)                                                                                                                                                                                       |Midazolam, PO           |8.0559             |5.5556            |1.4501            |2.6954              |-                  |-                  |Markert 2013        |
+|1099  |Clarithromycin, 500 mg, PO, MD BID (5 days)                                                                                                                                                                                       |Midazolam, PO           |10.6284            |4.84              |2.196             |3.2428              |2.69               |1.2055             |Prueksaritanont 2017|
+|2030  |Clarithromycin, 500 mg, PO, MD BID (7 days)                                                                                                                                                                                       |Midazolam, PO           |13.1809            |8                 |1.6476            |3.1741              |2.75               |1.1542             |Quinney 2008        |
+|2004  |Clarithromycin, 250 mg, PO, MD BID (3 days)                                                                                                                                                                                       |Midazolam, PO           |1.3857             |1.9               |0.7293            |1.2051              |1.75               |0.68862            |van Dyk 2018        |
+|469   |Clarithromycin, 250 mg, PO, MD BID (5 days)                                                                                                                                                                                       |Midazolam, PO           |2.558              |3.5716            |0.71622           |1.6253              |2.44               |0.6661             |Yeates 1996         |
+|1102  |Clarithromycin, 500 mg, PO, MD OD (2 days)                                                                                                                                                                                        |Triazolam, PO           |3.9256             |5.06              |0.77581           |1.9743              |1.968              |1.0032             |Greenblatt 1998a    |
+|779   |Erythromycin, 500 mg, PO, SD                                                                                                                                                                                                      |Alfentanil, IV          |1.0429             |1.0262            |1.0163            |1                   |-                  |-                  |Bartkowski 1989     |
+|780   |Erythromycin, 500 mg, PO, MD BID (6 days)                                                                                                                                                                                         |Alfentanil, IV          |1.8808             |1.4611            |1.2873            |1.0262              |-                  |-                  |Bartkowski 1989     |
+|777   |Erythromycin, 400 mg, PO, MD TID (10 days)                                                                                                                                                                                        |Alprazolam, PO          |1.7955             |2.4716            |0.72647           |1.0709              |1.1833             |0.905              |Yasui 1996          |
+|781   |Erythromycin, 500 mg, PO, MD OD (2 days)                                                                                                                                                                                          |Triazolam, PO           |3.1905             |3.65              |0.87411           |1.8545              |1.768              |1.0489             |Greenblatt 1998a    |
+|757   |Erythromycin, 333 mg, PO, MD TID (3 days)                                                                                                                                                                                         |Triazolam, PO           |3.9652             |2.0597            |1.9251            |2.0584              |1.4643             |1.4058             |Phillips 1986       |
+|420   |Erythromycin, 500 mg, PO, MD QID (5 days)                                                                                                                                                                                         |Midazolam, IV           |2.7567             |1.5978            |1.7254            |1.0251              |-                  |-                  |Swart 2002          |
+|368   |Erythromycin, 500 mg, PO, MD TID (7 days)                                                                                                                                                                                         |Midazolam, IV           |2.3317             |1.9619            |1.1885            |1.018               |-                  |-                  |Olkkola 1993        |
+|366   |Erythromycin, 500 mg, PO, MD TID (7 days)                                                                                                                                                                                         |Midazolam, PO           |4.1615             |4.0674            |1.0231            |1.8615              |2.7                |0.68943            |Olkkola 1993        |
+|471   |Erythromycin, 500 mg, PO, MD TID (3 days)                                                                                                                                                                                         |Midazolam, PO           |5.2572             |3.8137            |1.3785            |2.1679              |2.7114             |0.79955            |Zimmermann 1996     |
+|362   |Erythromycin, 200 mg, PO, MD QID (2 days)                                                                                                                                                                                         |Midazolam, PO           |1.3279             |1.16              |1.1448            |0.81285             |0.90909            |0.89414            |Okudaira 2007       |
+|363   |Erythromycin, 200 mg, PO, MD QID (4 days)                                                                                                                                                                                         |Midazolam, PO           |1.7024             |1.69              |1.0073            |0.9119              |1.2                |0.75992            |Okudaira 2007       |
+|364   |Erythromycin, 200 mg, PO, MD QID (7 days)                                                                                                                                                                                         |Midazolam, PO           |1.774              |1.69              |1.0497            |0.92882             |1.1727             |0.79202            |Okudaira 2007       |
+|828   |Erythromycin, 250 mg, PO, SD                                                                                                                                                                                                      |Midazolam, PO           |3.1444             |1.7178            |1.8305            |2.8712              |-                  |-                  |Carls 2014          |
+|829   |Erythromycin, 1000 mg, PO, SD                                                                                                                                                                                                     |Midazolam, PO           |3.7079             |4.9912            |0.74288           |3.2768              |-                  |-                  |Carls 2014          |
+|1104  |Fluvoxamine, 50/100 mg, PO, MD OD (10 days), 50 mg day 1-3, then 100 mg                                                                                                                                                           |Alprazolam, PO          |1.0057             |1.2551            |0.80127           |1.0049              |1.1769             |0.85383            |Fleishaker 1994     |
+|1113  |Fluvoxamine, 50/100 mg, PO, MD OD (10 days), 50 mg day 1-3, then 100 mg                                                                                                                                                           |Alprazolam, PO          |1.0282             |1.9631            |0.52375           |1.0254              |1.8619             |0.55069            |Fleishaker 1994     |
+|2007  |Fluvoxamine, 50/100 mg, PO, MD BID (4 weeks), dose titration to 150 mg/day over 7 days: 50 mg in the evening for 3 days, 50 mg in the morning and evening for the next 3 days, then 50 mg in the morning and 100 mg in the evening|Midazolam, IV           |1.0533             |1.5               |0.70218           |1.0019              |-                  |-                  |Kashuba 1998        |
+|1089  |Fluvoxamine, 50/100 mg, PO, MD OD (12 days), titrated from 50 mg BID to 100 mg BID administered for 6 days                                                                                                                        |Midazolam, PO           |1.3869             |1.66              |0.8355            |1.1887              |1.63               |0.72926            |Lam 2003            |
+|1026  |Itraconazole, 200 mg, PO, MD OD (6 days)                                                                                                                                                                                          |Alprazolam, PO          |2.1703             |2.6627            |0.81507           |1.0879              |1.2868             |0.84541            |Yasui 1998          |
+|378   |Itraconazole, 200 mg, PO, MD OD (4 days)                                                                                                                                                                                          |Midazolam, IV           |2.563              |3.2258            |0.79453           |1.011               |-                  |-                  |Olkkola 1996        |
+|199   |Itraconazole, 200 mg, PO, MD OD (4 days)                                                                                                                                                                                          |Midazolam, IV           |2.713              |3.3333            |0.81389           |1.0106              |-                  |-                  |Yu 2004             |
+|50    |Itraconazole, 100 mg, PO, MD OD (4 days)                                                                                                                                                                                          |Midazolam, PO           |3.4932             |5.7451            |0.60803           |1.9135              |2.5588             |0.7478             |Ahonen 1995         |
+|58    |Itraconazole, 200 mg, PO, MD OD (4 days)                                                                                                                                                                                          |Midazolam, PO           |5.0163             |7.97              |0.6294            |2.1464              |3.12               |0.68793            |Backman 1998        |
+|59    |Itraconazole, 200 mg, PO, MD OD (4 days)                                                                                                                                                                                          |Midazolam, PO           |1.2048             |2.63              |0.4581            |1.1118              |1.92               |0.57904            |Backman 1998        |
+|370   |Itraconazole, 200 mg, PO, MD OD (4 days)                                                                                                                                                                                          |Midazolam, PO           |5.4525             |10.8              |0.50486           |2.1812              |3.4                |0.64153            |Olkkola 1994        |
+|377   |Itraconazole, 200 mg, PO, SD                                                                                                                                                                                                      |Midazolam, PO           |4.341              |3.4               |1.2768            |2.0856              |1.8                |1.1587             |Olkkola 1996        |
+|379   |Itraconazole, 200 mg, PO, MD OD (6 days)                                                                                                                                                                                          |Midazolam, PO           |6.5146             |6.6               |0.98706           |2.4588              |2.5                |0.98352            |Olkkola 1996        |
+|1097  |Itraconazole, 200 mg, PO, MD OD (5 days)                                                                                                                                                                                          |Midazolam, PO           |18.6488            |7.04              |2.649             |4.1246              |3.71               |1.1118             |Prueksaritanont 2017|
+|424   |Itraconazole, 50 mg, PO, SD                                                                                                                                                                                                       |Midazolam, PO           |3.128              |2                 |1.564             |2.1216              |-                  |-                  |Templeton 2010      |
+|425   |Itraconazole, 200 mg, PO, SD                                                                                                                                                                                                      |Midazolam, PO           |7.0748             |4.7               |1.5053            |3.1028              |-                  |-                  |Templeton 2010      |
+|426   |Itraconazole, 400 mg, PO, SD                                                                                                                                                                                                      |Midazolam, PO           |9.0098             |5.4               |1.6685            |3.3239              |-                  |-                  |Templeton 2010      |
+|1078  |Itraconazole, 200 mg, PO, SD                                                                                                                                                                                                      |Triazolam, PO           |4.0331             |3.11              |1.2968            |1.9148              |1.41               |1.358              |Neuvonen 1996       |
+|1079  |Itraconazole, 200 mg, PO, SD                                                                                                                                                                                                      |Triazolam, PO           |5.254              |4.79              |1.0969            |2.2809              |1.76               |1.296              |Neuvonen 1996       |
+|1080  |Itraconazole, 200 mg, PO, SD                                                                                                                                                                                                      |Triazolam, PO           |2.2711             |4.63              |0.49051           |1.6414              |1.76               |0.9326             |Neuvonen 1996       |
+|1081  |Itraconazole, 200 mg, PO, SD                                                                                                                                                                                                      |Triazolam, PO           |2.2138             |3.82              |0.57953           |1.4205              |1.71               |0.83072            |Neuvonen 1996       |
+|1029  |Itraconazole, 200 mg, PO, MD OD (4 days)                                                                                                                                                                                          |Triazolam, PO           |6.4544             |19.0287           |0.33919           |2.4064              |2.6854             |0.89608            |Varhe 1994          |
+|1111  |Verapamil, 240 mg, PO, MD OD (7 days)                                                                                                                                                                                             |Midazolam, IV           |1.5805             |1.4524            |1.0882            |1.1229              |-                  |-                  |Wang 2005           |
+|1108  |Verapamil, 80 mg, PO, MD TID (2 days)                                                                                                                                                                                             |Midazolam, PO           |2.0729             |2.9167            |0.7107            |1.4481              |1.9692             |0.73536            |Backman 1994        |
+|1116  |Verapamil, 240 mg, PO, MD OD (7 days)                                                                                                                                                                                             |Midazolam, PO           |1.7402             |3.5056            |0.4964            |1.3822              |-                  |-                  |Wang 2005           |
+|803   |Efavirenz, 600 mg, PO, MD OD (19 days)                                                                                                                                                                                            |Alfentanil, IV          |0.51445            |0.54              |0.95268           |0.9192              |1.0978             |0.83729            |Kharasch 2012       |
+|801   |Efavirenz, 600 mg, PO, MD OD (19 days)                                                                                                                                                                                            |Alfentanil, PO          |0.21719            |0.22              |0.98724           |0.34828             |0.42857            |0.81266            |Kharasch 2012       |
+|2045  |Efavirenz, 400 mg, PO, SD                                                                                                                                                                                                         |Midazolam, IV           |0.81419            |0.78538           |1.0367            |0.92661             |-                  |-                  |Mikus 2017          |
+|2048  |Efavirenz, 400 mg, PO, SD                                                                                                                                                                                                         |Midazolam, IV           |0.75226            |0.77712           |0.96801           |0.89702             |-                  |-                  |Mikus 2017          |
+|2050  |Efavirenz, 400 mg, PO, SD                                                                                                                                                                                                         |Midazolam, IV           |0.81753            |0.9375            |0.87203           |0.9266              |-                  |-                  |Mikus 2017          |
+|2052  |Efavirenz, 400 mg, PO, SD                                                                                                                                                                                                         |Midazolam, IV           |0.87525            |0.85377           |1.0252            |0.95117             |-                  |-                  |Mikus 2017          |
+|2054  |Efavirenz, 400 mg, PO, SD                                                                                                                                                                                                         |Midazolam, IV           |0.92029            |0.92217           |0.99796           |0.96942             |-                  |-                  |Mikus 2017          |
+|2041  |Efavirenz, 400 mg, PO, MD OD (14 days)                                                                                                                                                                                            |Midazolam, PO           |0.10494            |0.1027            |1.0218            |0.23113             |0.1806             |1.2798             |Katzenmaier 2010    |
+|2044  |Efavirenz, 400 mg, PO, SD                                                                                                                                                                                                         |Midazolam, PO           |0.54486            |0.59055           |0.92263           |0.66546             |-                  |-                  |Mikus 2017          |
+|2047  |Efavirenz, 400 mg, PO, SD                                                                                                                                                                                                         |Midazolam, PO           |0.52716            |0.61417           |0.85833           |0.64539             |-                  |-                  |Mikus 2017          |
+|2049  |Efavirenz, 400 mg, PO, SD                                                                                                                                                                                                         |Midazolam, PO           |0.66011            |0.76968           |0.85764           |0.75359             |-                  |-                  |Mikus 2017          |
+|2051  |Efavirenz, 400 mg, PO, SD                                                                                                                                                                                                         |Midazolam, PO           |0.76935            |0.74803           |1.0285            |0.83692             |-                  |-                  |Mikus 2017          |
+|2053  |Efavirenz, 400 mg, PO, SD                                                                                                                                                                                                         |Midazolam, PO           |0.85311            |0.83661           |1.0197            |0.89829             |-                  |-                  |Mikus 2017          |
+|278   |Rifampicin, 600 mg, PO, MD OD (5 days)                                                                                                                                                                                            |Alfentanil, IV          |0.32765            |0.36301           |0.90259           |0.89953             |-                  |-                  |Kharasch 1997       |
+|283   |Rifampicin, 600 mg, PO, MD OD (6 days)                                                                                                                                                                                            |Alfentanil, IV          |0.44881            |0.375             |1.1968            |1.2066              |1.0033             |1.2026             |Kharasch 2004       |
+|299   |Rifampicin, 5 mg, PO, MD OD (6 days)                                                                                                                                                                                              |Alfentanil, IV          |0.92899            |0.83              |1.1193            |1.3082              |1.0392             |1.2588             |Kharasch 2011       |
+|300   |Rifampicin, 10 mg, PO, MD OD (6 days)                                                                                                                                                                                             |Alfentanil, IV          |0.78761            |0.75              |1.0501            |1.2924              |1.049              |1.2321             |Kharasch 2011       |
+|301   |Rifampicin, 25 mg, PO, MD OD (6 days)                                                                                                                                                                                             |Alfentanil, IV          |0.63607            |0.59              |1.0781            |1.2666              |1                  |1.2666             |Kharasch 2011       |
+|302   |Rifampicin, 75 mg, PO, MD OD (6 days)                                                                                                                                                                                             |Alfentanil, IV          |0.5244             |0.51              |1.0282            |1.2362              |1.0294             |1.2009             |Kharasch 2011       |
+|763   |Rifampicin, 600 mg, PO, MD OD (6 days)                                                                                                                                                                                            |Alfentanil, IV          |0.33183            |0.4               |0.82958           |0.90219             |-                  |-                  |Kharasch 2011b      |
+|767   |Rifampicin, 600 mg, PO, MD OD (6 days)                                                                                                                                                                                            |Alfentanil, IV          |0.32719            |0.4               |0.81797           |0.89982             |-                  |-                  |Kharasch 2011b      |
+|391   |Rifampicin, 600 mg, PO, MD OD (5 days)                                                                                                                                                                                            |Alfentanil, IV          |0.33312            |0.55              |0.60567           |0.90295             |-                  |-                  |Phimmasone 2001     |
+|288   |Rifampicin, 600 mg, PO, MD OD (6 days)                                                                                                                                                                                            |Alfentanil, PO          |0.039368           |0.045631          |0.86274           |0.094473            |0.11111            |0.85026            |Kharasch 2004       |
+|309   |Rifampicin, 5 mg, PO, MD OD (6 days)                                                                                                                                                                                              |Alfentanil, PO          |0.43153            |0.74              |0.58315           |0.5838              |0.86275            |0.67668            |Kharasch 2011       |
+|310   |Rifampicin, 10 mg, PO, MD OD (6 days)                                                                                                                                                                                             |Alfentanil, PO          |0.29656            |0.61              |0.48616           |0.454               |0.86275            |0.52623            |Kharasch 2011       |
+|311   |Rifampicin, 25 mg, PO, MD OD (6 days)                                                                                                                                                                                             |Alfentanil, PO          |0.16787            |0.3               |0.55958           |0.30106             |0.4902             |0.61417            |Kharasch 2011       |
+|312   |Rifampicin, 75 mg, PO, MD OD (6 days)                                                                                                                                                                                             |Alfentanil, PO          |0.085749           |0.13              |0.6596            |0.17817             |0.2549             |0.69898            |Kharasch 2011       |
+|771   |Rifampicin, 600 mg, PO, MD OD (6 days)                                                                                                                                                                                            |Alfentanil, PO          |0.037413           |0.06              |0.62354           |0.089691            |-                  |-                  |Kharasch 2011b      |
+|775   |Rifampicin, 600 mg, PO, MD OD (6 days)                                                                                                                                                                                            |Alfentanil, PO          |0.036832           |0.06              |0.61387           |0.088886            |-                  |-                  |Kharasch 2011b      |
+|2009  |Rifampicin, 450 mg, PO, MD, q.d. for 5 days                                                                                                                                                                                       |Alprazolam, PO          |0.18777            |0.17935           |1.047             |0.70506             |-                  |-                  |Gashaw 2003         |
+|2010  |Rifampicin, 450 mg, PO, MD, q.d. for 5 days                                                                                                                                                                                       |Alprazolam, PO          |0.95979            |0.91667           |1.047             |0.99507             |-                  |-                  |Gashaw 2003         |
+|1001  |Rifampicin, 450 mg, PO, MD OD (4 days)                                                                                                                                                                                            |Alprazolam, PO          |0.19649            |0.11726           |1.6757            |0.71304             |0.63816            |1.1173             |Schmider 1999       |
+|179   |Rifampicin, 600 mg, PO, MD OD (7 days)                                                                                                                                                                                            |Midazolam, IV           |0.45281            |0.44898           |1.0085            |0.73946             |-                  |-                  |Gorski 2003         |
+|276   |Rifampicin, 600 mg, PO, MD OD (5 days)                                                                                                                                                                                            |Midazolam, IV           |0.43491            |0.37931           |1.1466            |0.90463             |-                  |-                  |Kharasch 1997       |
+|280   |Rifampicin, 600 mg, PO, MD OD (6 days)                                                                                                                                                                                            |Midazolam, IV           |0.43982            |0.52113           |0.84399           |0.90974             |1.01               |0.90076            |Kharasch 2004       |
+|294   |Rifampicin, 5 mg, PO, MD OD (6 days)                                                                                                                                                                                              |Midazolam, IV           |0.7409             |0.84              |0.88202           |0.97894             |1.0323             |0.94835            |Kharasch 2011       |
+|295   |Rifampicin, 10 mg, PO, MD OD (6 days)                                                                                                                                                                                             |Midazolam, IV           |0.65382            |0.77              |0.84912           |0.9666              |1.0645             |0.90802            |Kharasch 2011       |
+|296   |Rifampicin, 25 mg, PO, MD OD (6 days)                                                                                                                                                                                             |Midazolam, IV           |0.55925            |0.63              |0.8877            |0.94761             |0.83871            |1.1298             |Kharasch 2011       |
+|297   |Rifampicin, 75 mg, PO, MD OD (6 days)                                                                                                                                                                                             |Midazolam, IV           |0.48857            |0.6               |0.81429           |0.92729             |1.3226             |0.70112            |Kharasch 2011       |
+|2036  |Rifampicin, 600 mg, PO, MD OD (10 days)                                                                                                                                                                                           |Midazolam, IV           |1.089              |1.15              |0.94693           |2.2552              |-                  |-                  |Kim 2018            |
+|342   |Rifampicin, 600 mg, PO, MD OD (6 days)                                                                                                                                                                                            |Midazolam, IV           |0.43154            |0.65501           |0.65883           |0.90334             |1.106              |0.81679            |Link 2008           |
+|389   |Rifampicin, 600 mg, PO, MD OD (5 days)                                                                                                                                                                                            |Midazolam, IV           |0.43946            |0.51              |0.86169           |0.90791             |-                  |-                  |Phimmasone 2001     |
+|1092  |Rifampicin, 600 mg, PO, MD OD (10 days)                                                                                                                                                                                           |Midazolam, IV           |1.089              |1.15              |0.94693           |2.2552              |-                  |-                  |Shin 2013           |
+|1095  |Rifampicin, 600 mg, PO, MD OD (10 days)                                                                                                                                                                                           |Midazolam, IV           |1.089              |1.225             |0.88896           |2.2552              |1.775              |1.2705             |Shin 2016           |
+|422   |Rifampicin, 600 mg, PO, MD OD (7 days)                                                                                                                                                                                            |Midazolam, IV           |0.45281            |0.57947           |0.78143           |0.7396              |-                  |-                  |Szalat 2007         |
+|202   |Rifampicin, 600 mg, PO, MD OD (10 days)                                                                                                                                                                                           |Midazolam, IV           |0.76403            |0.83333           |0.91683           |1.8946              |-                  |-                  |Yu 2004             |
+|54    |Rifampicin, 600 mg, PO, MD OD (5 days)                                                                                                                                                                                            |Midazolam, PO           |0.039198           |0.041             |0.95604           |0.10485             |0.061818           |1.6962             |Backman 1996        |
+|56    |Rifampicin, 600 mg, PO, MD OD (5 days)                                                                                                                                                                                            |Midazolam, PO           |0.03924            |0.023             |1.7061            |0.10485             |0.054              |1.9417             |Backman 1998        |
+|57    |Rifampicin, 600 mg, PO, MD OD (5 days)                                                                                                                                                                                            |Midazolam, PO           |0.10635            |0.132             |0.80567           |0.21537             |0.202              |1.0662             |Backman 1998        |
+|113   |Rifampicin, 600 mg, PO, MD OD (9 days)                                                                                                                                                                                            |Midazolam, PO           |0.027779           |0.12449           |0.22314           |0.073638            |0.16957            |0.43427            |Chung 2006          |
+|132   |Rifampicin, 450 mg, PO, MD OD (5 days)                                                                                                                                                                                            |Midazolam, PO           |0.033269           |0.052239          |0.63686           |0.088836            |0.11154            |0.79646            |Eap 2004            |
+|177   |Rifampicin, 600 mg, PO, MD OD (7 days)                                                                                                                                                                                            |Midazolam, PO           |0.048155           |0.10335           |0.46593           |0.1263              |0.067039           |1.8839             |Gorski 2003         |
+|215   |Rifampicin, 300 mg, PO, MD BID (7 days)                                                                                                                                                                                           |Midazolam, PO           |0.045204           |0.057161          |0.79083           |0.11748             |0.12092            |0.97161            |Gurley 2006         |
+|221   |Rifampicin, 300 mg, PO, MD BID (7 days)                                                                                                                                                                                           |Midazolam, PO           |0.045204           |0.060317          |0.74944           |0.11748             |0.10762            |1.0916             |Gurley 2008a        |
+|286   |Rifampicin, 600 mg, PO, MD OD (6 days)                                                                                                                                                                                            |Midazolam, PO           |0.035672           |0.052632          |0.67776           |0.081822            |0.10989            |0.74458            |Kharasch 2004       |
+|304   |Rifampicin, 5 mg, PO, MD OD (6 days)                                                                                                                                                                                              |Midazolam, PO           |0.3954             |0.8               |0.49425           |0.54041             |0.8                |0.67552            |Kharasch 2011       |
+|305   |Rifampicin, 10 mg, PO, MD OD (6 days)                                                                                                                                                                                             |Midazolam, PO           |0.26469            |0.68              |0.38925           |0.40785             |0.93333            |0.43699            |Kharasch 2011       |
+|306   |Rifampicin, 25 mg, PO, MD OD (6 days)                                                                                                                                                                                             |Midazolam, PO           |0.14406            |0.4               |0.36016           |0.25922             |0.50667            |0.51162            |Kharasch 2011       |
+|307   |Rifampicin, 75 mg, PO, MD OD (6 days)                                                                                                                                                                                             |Midazolam, PO           |0.071646           |0.25              |0.28658           |0.14766             |0.34               |0.43429            |Kharasch 2011       |
+|344   |Rifampicin, 600 mg, PO, MD OD (6 days)                                                                                                                                                                                            |Midazolam, PO           |0.029851           |0.015549          |1.9198            |0.081182            |0.034865           |2.3284             |Link 2008           |
+|1098  |Rifampicin, 600 mg, PO, SD                                                                                                                                                                                                        |Midazolam, PO           |2.0942             |0.94              |2.2279            |1.8141              |1.3                |1.3954             |Prueksaritanont 2017|
+|392   |Rifampicin, 600 mg, PO, MD OD (28 days)                                                                                                                                                                                           |Midazolam, PO           |0.18782            |0.123             |1.527             |0.26415             |0.162              |1.6306             |Reitman 2011        |
+|393   |Rifampicin, 600 mg, PO, MD OD (28 days)                                                                                                                                                                                           |Midazolam, PO           |0.31157            |0.383             |0.8135            |0.46039             |0.403              |1.1424             |Reitman 2011        |
+|394   |Rifampicin, 600 mg, PO, MD OD (28 days)                                                                                                                                                                                           |Midazolam, PO           |0.90255            |0.815             |1.1074            |0.93677             |0.731              |1.2815             |Reitman 2011        |
+|2002  |Rifampicin, 300 mg, PO, MD OD (7 days)                                                                                                                                                                                            |Midazolam, PO           |0.04025            |0.25641           |0.15698           |0.082741            |0.375              |0.22064            |van Dyk 2018        |
+|204   |Rifampicin, 10 mg, PO, MD OD (22 days)                                                                                                                                                                                            |Midazolam, PO           |0.24164            |0.539             |0.44831           |0.38273             |0.63265            |0.60496            |Wiesinger 2020      |
+|205   |Rifampicin, 600 mg, PO, MD OD (22 days)                                                                                                                                                                                           |Midazolam, PO           |0.028812           |0.137             |0.21031           |0.070967            |0.18755            |0.37839            |Wiesinger 2020      |
+|1004  |Rifampicin, 600 mg, PO, MD OD (5 days)                                                                                                                                                                                            |Triazolam, PO           |0.032527           |0.051             |0.63778           |0.12191             |0.12414            |0.98202            |Villikka 1997       |
+|2056  |Rifampicin, 600 mg, PO, MD OD (13 days)                                                                                                                                                                                           |Verapamil, IV           |0.82209            |0.81865           |1.0042            |0.97596             |-                  |-                  |Barbarash 1988      |
+|2058  |Rifampicin, 600 mg, PO, MD OD (15 days)                                                                                                                                                                                           |Verapamil, PO           |0.10119            |0.06511           |1.5542            |0.14767             |0.036961           |3.9953             |Barbarash 1988      |
 
 ## Mechanism
 
@@ -808,20 +809,20 @@ GMFE (CMAX) = 1.368272
 
 ![004_plotDDIRatioCMAXResidualsVsObserved.png](images/002_2_Qualification_of_Use_Case_CYP3A4-mediated_DDI/001_Mechanism/001_Competitive_Inhibition/004_plotDDIRatioCMAXResidualsVsObserved.png)
 
-GMFE (AUC) = 1.488414 
+GMFE (AUC) = 1.456948 
 
-GMFE (CMAX) = 1.272584 
+GMFE (CMAX) = 1.263197 
 
 |AUC                       |Number|Ratio [%]|
 |-------------------------:|-----:|--------:|
 |Points total              |37    |-        |
-|Points within Guest et al.|21    |56.7568  |
-|Points within 2-fold      |31    |83.7838  |
+|Points within Guest et al.|22    |59.4595  |
+|Points within 2-fold      |32    |86.4865  |
 
 |CMAX                      |Number|Ratio [%]|
 |-------------------------:|-----:|--------:|
 |Points total              |27    |-        |
-|Points within Guest et al.|18    |66.6667  |
+|Points within Guest et al.|19    |70.3704  |
 |Points within 2-fold      |26    |96.2963  |
 
 ### Induction
@@ -834,15 +835,15 @@ GMFE (CMAX) = 1.272584
 
 ![004_plotDDIRatioCMAXResidualsVsObserved.png](images/002_2_Qualification_of_Use_Case_CYP3A4-mediated_DDI/001_Mechanism/002_Induction/004_plotDDIRatioCMAXResidualsVsObserved.png)
 
-GMFE (AUC) = 1.379900 
+GMFE (AUC) = 1.405920 
 
-GMFE (CMAX) = 1.485651 
+GMFE (CMAX) = 1.489210 
 
 |AUC                       |Number|Ratio [%]|
 |-------------------------:|-----:|--------:|
 |Points total              |70    |-        |
 |Points within Guest et al.|54    |77.1429  |
-|Points within 2-fold      |61    |87.1429  |
+|Points within 2-fold      |59    |84.2857  |
 
 |CMAX                      |Number|Ratio [%]|
 |-------------------------:|-----:|--------:|
@@ -860,20 +861,20 @@ GMFE (CMAX) = 1.485651
 
 ![004_plotDDIRatioCMAXResidualsVsObserved.png](images/002_2_Qualification_of_Use_Case_CYP3A4-mediated_DDI/001_Mechanism/003_Mechanism_based_Inactivation/004_plotDDIRatioCMAXResidualsVsObserved.png)
 
-GMFE (AUC) = 1.277032 
+GMFE (AUC) = 1.419349 
 
-GMFE (CMAX) = 1.240697 
+GMFE (CMAX) = 1.247150 
 
 |AUC                       |Number|Ratio [%]|
 |-------------------------:|-----:|--------:|
 |Points total              |28    |-        |
-|Points within Guest et al.|24    |85.7143  |
+|Points within Guest et al.|19    |67.8571  |
 |Points within 2-fold      |26    |92.8571  |
 
 |CMAX                      |Number|Ratio [%]|
 |-------------------------:|-----:|--------:|
 |Points total              |17    |-        |
-|Points within Guest et al.|13    |76.4706  |
+|Points within Guest et al.|12    |70.5882  |
 |Points within 2-fold      |17    |100      |
 
 ## Perpetrator
@@ -888,9 +889,9 @@ GMFE (CMAX) = 1.240697
 
 ![004_plotDDIRatioCMAXResidualsVsObserved.png](images/002_2_Qualification_of_Use_Case_CYP3A4-mediated_DDI/002_Perpetrator/001_Cimetidine/004_plotDDIRatioCMAXResidualsVsObserved.png)
 
-GMFE (AUC) = 1.316350 
+GMFE (AUC) = 1.320219 
 
-GMFE (CMAX) = 1.226719 
+GMFE (CMAX) = 1.223086 
 
 |AUC                       |Number|Ratio [%]|
 |-------------------------:|-----:|--------:|
@@ -901,7 +902,7 @@ GMFE (CMAX) = 1.226719
 |CMAX                      |Number|Ratio [%]|
 |-------------------------:|-----:|--------:|
 |Points total              |11    |-        |
-|Points within Guest et al.|6     |54.5455  |
+|Points within Guest et al.|7     |63.6364  |
 |Points within 2-fold      |10    |90.9091  |
 
 ### Clarithromycin
@@ -914,20 +915,20 @@ GMFE (CMAX) = 1.226719
 
 ![004_plotDDIRatioCMAXResidualsVsObserved.png](images/002_2_Qualification_of_Use_Case_CYP3A4-mediated_DDI/002_Perpetrator/002_Clarithromycin/004_plotDDIRatioCMAXResidualsVsObserved.png)
 
-GMFE (AUC) = 1.266724 
+GMFE (AUC) = 1.596588 
 
-GMFE (CMAX) = 1.235285 
+GMFE (CMAX) = 1.243570 
 
 |AUC                       |Number|Ratio [%]|
 |-------------------------:|-----:|--------:|
 |Points total              |11    |-        |
-|Points within Guest et al.|11    |100      |
-|Points within 2-fold      |11    |100      |
+|Points within Guest et al.|7     |63.6364  |
+|Points within 2-fold      |10    |90.9091  |
 
 |CMAX                      |Number|Ratio [%]|
 |-------------------------:|-----:|--------:|
 |Points total              |8     |-        |
-|Points within Guest et al.|8     |100      |
+|Points within Guest et al.|7     |87.5     |
 |Points within 2-fold      |8     |100      |
 
 ### Efavirenz
@@ -940,9 +941,9 @@ GMFE (CMAX) = 1.235285
 
 ![004_plotDDIRatioCMAXResidualsVsObserved.png](images/002_2_Qualification_of_Use_Case_CYP3A4-mediated_DDI/002_Perpetrator/003_Efavirenz/004_plotDDIRatioCMAXResidualsVsObserved.png)
 
-GMFE (AUC) = 1.075747 
+GMFE (AUC) = 1.059372 
 
-GMFE (CMAX) = 1.235565 
+GMFE (CMAX) = 1.234377 
 
 |AUC                       |Number|Ratio [%]|
 |-------------------------:|-----:|--------:|
@@ -966,15 +967,15 @@ GMFE (CMAX) = 1.235565
 
 ![004_plotDDIRatioCMAXResidualsVsObserved.png](images/002_2_Qualification_of_Use_Case_CYP3A4-mediated_DDI/002_Perpetrator/004_Erythromycin/004_plotDDIRatioCMAXResidualsVsObserved.png)
 
-GMFE (AUC) = 1.245268 
+GMFE (AUC) = 1.287019 
 
-GMFE (CMAX) = 1.231222 
+GMFE (CMAX) = 1.237284 
 
 |AUC                       |Number|Ratio [%]|
 |-------------------------:|-----:|--------:|
 |Points total              |14    |-        |
-|Points within Guest et al.|11    |78.5714  |
-|Points within 2-fold      |13    |92.8571  |
+|Points within Guest et al.|10    |71.4286  |
+|Points within 2-fold      |14    |100      |
 
 |CMAX                      |Number|Ratio [%]|
 |-------------------------:|-----:|--------:|
@@ -992,9 +993,9 @@ GMFE (CMAX) = 1.231222
 
 ![004_plotDDIRatioCMAXResidualsVsObserved.png](images/002_2_Qualification_of_Use_Case_CYP3A4-mediated_DDI/002_Perpetrator/005_Fluvoxamine/004_plotDDIRatioCMAXResidualsVsObserved.png)
 
-GMFE (AUC) = 1.420923 
+GMFE (AUC) = 1.419628 
 
-GMFE (CMAX) = 1.425108 
+GMFE (CMAX) = 1.428716 
 
 |AUC                       |Number|Ratio [%]|
 |-------------------------:|-----:|--------:|
@@ -1018,15 +1019,15 @@ GMFE (CMAX) = 1.425108
 
 ![004_plotDDIRatioCMAXResidualsVsObserved.png](images/002_2_Qualification_of_Use_Case_CYP3A4-mediated_DDI/002_Perpetrator/006_Itraconazole/004_plotDDIRatioCMAXResidualsVsObserved.png)
 
-GMFE (AUC) = 1.665952 
+GMFE (AUC) = 1.590793 
 
-GMFE (CMAX) = 1.278882 
+GMFE (CMAX) = 1.261795 
 
 |AUC                       |Number|Ratio [%]|
 |-------------------------:|-----:|--------:|
 |Points total              |18    |-        |
-|Points within Guest et al.|11    |61.1111  |
-|Points within 2-fold      |13    |72.2222  |
+|Points within Guest et al.|12    |66.6667  |
+|Points within 2-fold      |14    |77.7778  |
 
 |CMAX                      |Number|Ratio [%]|
 |-------------------------:|-----:|--------:|
@@ -1044,15 +1045,15 @@ GMFE (CMAX) = 1.278882
 
 ![004_plotDDIRatioCMAXResidualsVsObserved.png](images/002_2_Qualification_of_Use_Case_CYP3A4-mediated_DDI/002_Perpetrator/007_Rifampicin/004_plotDDIRatioCMAXResidualsVsObserved.png)
 
-GMFE (AUC) = 1.460530 
+GMFE (AUC) = 1.499661 
 
-GMFE (CMAX) = 1.505824 
+GMFE (CMAX) = 1.509802 
 
 |AUC                       |Number|Ratio [%]|
 |-------------------------:|-----:|--------:|
 |Points total              |57    |-        |
 |Points within Guest et al.|42    |73.6842  |
-|Points within 2-fold      |48    |84.2105  |
+|Points within 2-fold      |46    |80.7018  |
 
 |CMAX                      |Number|Ratio [%]|
 |-------------------------:|-----:|--------:|
@@ -1070,9 +1071,9 @@ GMFE (CMAX) = 1.505824
 
 ![004_plotDDIRatioCMAXResidualsVsObserved.png](images/002_2_Qualification_of_Use_Case_CYP3A4-mediated_DDI/002_Perpetrator/008_Verapamil/004_plotDDIRatioCMAXResidualsVsObserved.png)
 
-GMFE (AUC) = 1.479636 
+GMFE (AUC) = 1.455672 
 
-GMFE (CMAX) = 1.366122 
+GMFE (CMAX) = 1.359877 
 
 |AUC                       |Number|Ratio [%]|
 |-------------------------:|-----:|--------:|
@@ -1098,15 +1099,15 @@ GMFE (CMAX) = 1.366122
 
 ![004_plotDDIRatioCMAXResidualsVsObserved.png](images/002_2_Qualification_of_Use_Case_CYP3A4-mediated_DDI/003_Victim/001_Alfentanil/004_plotDDIRatioCMAXResidualsVsObserved.png)
 
-GMFE (AUC) = 1.307997 
+GMFE (AUC) = 1.336276 
 
-GMFE (CMAX) = 1.327112 
+GMFE (CMAX) = 1.335100 
 
 |AUC                       |Number|Ratio [%]|
 |-------------------------:|-----:|--------:|
 |Points total              |21    |-        |
 |Points within Guest et al.|16    |76.1905  |
-|Points within 2-fold      |20    |95.2381  |
+|Points within 2-fold      |19    |90.4762  |
 
 |CMAX                      |Number|Ratio [%]|
 |-------------------------:|-----:|--------:|
@@ -1124,9 +1125,9 @@ GMFE (CMAX) = 1.327112
 
 ![004_plotDDIRatioCMAXResidualsVsObserved.png](images/002_2_Qualification_of_Use_Case_CYP3A4-mediated_DDI/003_Victim/002_Alprazolam/004_plotDDIRatioCMAXResidualsVsObserved.png)
 
-GMFE (AUC) = 1.397670 
+GMFE (AUC) = 1.392357 
 
-GMFE (CMAX) = 1.275623 
+GMFE (CMAX) = 1.283971 
 
 |AUC                       |Number|Ratio [%]|
 |-------------------------:|-----:|--------:|
@@ -1150,20 +1151,20 @@ GMFE (CMAX) = 1.275623
 
 ![004_plotDDIRatioCMAXResidualsVsObserved.png](images/002_2_Qualification_of_Use_Case_CYP3A4-mediated_DDI/003_Victim/003_Midazolam/004_plotDDIRatioCMAXResidualsVsObserved.png)
 
-GMFE (AUC) = 1.397505 
+GMFE (AUC) = 1.453248 
 
-GMFE (CMAX) = 1.432862 
+GMFE (CMAX) = 1.435421 
 
 |AUC                       |Number|Ratio [%]|
 |-------------------------:|-----:|--------:|
 |Points total              |88    |-        |
-|Points within Guest et al.|66    |75       |
+|Points within Guest et al.|61    |69.3182  |
 |Points within 2-fold      |74    |84.0909  |
 
 |CMAX                      |Number|Ratio [%]|
 |-------------------------:|-----:|--------:|
 |Points total              |53    |-        |
-|Points within Guest et al.|32    |60.3774  |
+|Points within Guest et al.|31    |58.4906  |
 |Points within 2-fold      |46    |86.7925  |
 
 ### Triazolam
@@ -1176,20 +1177,20 @@ GMFE (CMAX) = 1.432862
 
 ![004_plotDDIRatioCMAXResidualsVsObserved.png](images/002_2_Qualification_of_Use_Case_CYP3A4-mediated_DDI/003_Victim/004_Triazolam/004_plotDDIRatioCMAXResidualsVsObserved.png)
 
-GMFE (AUC) = 1.468759 
+GMFE (AUC) = 1.439020 
 
-GMFE (CMAX) = 1.143534 
+GMFE (CMAX) = 1.128039 
 
 |AUC                       |Number|Ratio [%]|
 |-------------------------:|-----:|--------:|
 |Points total              |13    |-        |
-|Points within Guest et al.|9     |69.2308  |
+|Points within Guest et al.|10    |76.9231  |
 |Points within 2-fold      |11    |84.6154  |
 
 |CMAX                      |Number|Ratio [%]|
 |-------------------------:|-----:|--------:|
 |Points total              |13    |-        |
-|Points within Guest et al.|10    |76.9231  |
+|Points within Guest et al.|11    |84.6154  |
 |Points within 2-fold      |13    |100      |
 
 ### Verapamil
@@ -1202,9 +1203,9 @@ GMFE (CMAX) = 1.143534
 
 ![004_plotDDIRatioCMAXResidualsVsObserved.png](images/002_2_Qualification_of_Use_Case_CYP3A4-mediated_DDI/003_Victim/005_Verapamil/004_plotDDIRatioCMAXResidualsVsObserved.png)
 
-GMFE (AUC) = 1.284476 
+GMFE (AUC) = 1.247977 
 
-GMFE (CMAX) = 1.754106 
+GMFE (CMAX) = 1.730125 
 
 |AUC                       |Number|Ratio [%]|
 |-------------------------:|-----:|--------:|

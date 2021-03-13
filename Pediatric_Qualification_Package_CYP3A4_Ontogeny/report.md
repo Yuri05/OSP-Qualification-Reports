@@ -4,11 +4,11 @@
 
 
 
-| Version                         | 1.2-OSP9.1                                                   |
+| Version                         | x.x-OSPy.y                                                   |
 | ------------------------------- | ------------------------------------------------------------ |
-| Qualification Plan Release      | https://github.com/Open-Systems-Pharmacology/Pediatric_Qualification_Package_CYP3A4_Ontogeny/releases/tag/v1.2 |
-| OSP Version                     | 9.1                                                          |
-| Qualification Framework Version | 2.2                                                          |
+| Qualification Plan Release      | https://github.com/Open-Systems-Pharmacology/Pediatric_Qualification_Package_CYP3A4_Ontogeny/releases/tag/vx.x |
+| OSP Version                     | y.y                                                          |
+| Qualification Framework Version | z.z                                                          |
 
 
 
@@ -73,6 +73,7 @@ To qualify the OSP suite for the pediatric translation of the pharmacokinetics o
 [4] [Alfentanil-Model, Whole-body PBPK model of Alfentanil. https://github.com/Open-Systems-Pharmacology/Alfentanil-Model](https://github.com/incei/Alfentanil-Model)
 
 [5] [Sufentanil-Model, Whole-body PBPK model of Sufentanil. https://github.com/Open-Systems-Pharmacology/Sufentanil-Model](https://github.com/incei/Sufentanil-Model)
+
 # Chapter 2: Pediatric translation qualification results
 ## Evaluation of Pediatric translation
 
@@ -91,55 +92,55 @@ In the next sections the demographics as well as the evaluation results of the p
 
 ![005_plotPKRatioAUC.png](images/002_Chapter_2__Pediatric_translation_qualification_results/005_plotPKRatioAUC.png)
 
-GMFE (AUC) = 1.254230 
+GMFE (AUC) = 1.268331 
 
 |AUC                   |Number|Ratio [%]|
 |---------------------:|-----:|--------:|
 |Points total          |39    |-        |
-|Points within 1.5 fold|29    |74.359   |
-|Points within 2-fold  |38    |97.4359  |
+|Points within 1.5 fold|32    |82.0513  |
+|Points within 2-fold  |37    |94.8718  |
 
 |Study ID          |Age [y]|BodyWeight [kg]|Predicted AUC [mg*min/ml]|Observed AUC [mg*min/ml]|Pred/Obs AUC Ratio|
 |-----------------:|------:|--------------:|------------------------:|-----------------------:|-----------------:|
-|Davis 1987        |1.2917 |8.9            |0.54048                  |0.00082873              |0.54048           |
-|Davis 1987        |0.43333|5.3            |1.0284                   |0.00054546              |1.0284            |
-|Guay 1991         |2.0833 |12.1           |0.60119                  |0.00010838              |0.60119           |
-|Guay 1991         |2.5833 |16             |0.85776                  |4.63e-05                |0.85776           |
-|Guay 1991         |2.6667 |11.3           |1.1327                   |8.92e-05                |1.1327            |
-|Guay 1991         |3.25   |16             |1.0509                   |8.26e-05                |1.0509            |
-|Guay 1991         |3.8333 |14.2           |0.84204                  |6.63e-05                |0.84204           |
-|Guay 1991         |4.5833 |15             |0.66053                  |6.73e-05                |0.66053           |
-|Guay 1991         |4.5833 |19             |0.63325                  |0.00013487              |0.63325           |
-|Guay 1991         |4.8333 |17.5           |1.2509                   |6.99e-05                |1.2509            |
-|Guay 1991         |5.25   |18.5           |1.0375                   |4.36e-05                |1.0375            |
-|Guay 1991         |5.25   |19.65          |1.0358                   |8.53e-05                |1.0358            |
-|Guay 1991         |5.3333 |24             |0.8349                   |0.0001355               |0.8349            |
-|Guay 1991         |5.3333 |24             |0.8415                   |7.55e-05                |0.8415            |
-|Guay 1991         |5.75   |14.5           |0.49761                  |0.00015183              |0.49761           |
-|Guay 1991         |5.9167 |28.2           |0.72904                  |0.00012754              |0.72904           |
-|Guay 1991         |5.9167 |25             |0.84016                  |5.71e-05                |0.84016           |
-|Guay 1991         |6.9167 |29.6           |1.0091                   |6.17e-05                |1.0091            |
-|Guay 1991         |7.5    |23.5           |0.76862                  |3.5e-05                 |0.76862           |
-|Guay 1991         |7.5    |15.2           |0.99104                  |7.36e-05                |0.99104           |
-|Guay 1991         |8.75   |22.6           |0.92858                  |5.65e-05                |0.92858           |
-|den Hollander 1992|0.92   |6.5            |1.0835                   |21.1                    |1.0835            |
-|den Hollander 1992|0.83   |6.4            |1.6551                   |14                      |1.6551            |
-|den Hollander 1992|0.99   |8.5            |1.1878                   |19.8                    |1.1878            |
-|den Hollander 1992|0.3    |5.1            |1.654                    |18.5                    |1.654             |
-|den Hollander 1992|0.92   |6.149          |1.2302                   |15.9                    |1.2302            |
-|den Hollander 1992|1.3    |10.4           |0.96258                  |24.3                    |0.96258           |
-|den Hollander 1992|9      |25.6           |1.972                    |11.3                    |1.972             |
-|den Hollander 1992|3.5    |14.4           |1.1349                   |18.6                    |1.1349            |
-|den Hollander 1992|5.5    |19.5           |1.0307                   |20.7                    |1.0307            |
-|den Hollander 1992|3.5    |18.5           |1.0082                   |22.7                    |1.0082            |
-|Meistelman 1987   |4.7    |20             |0.77382                  |0.0058824               |0.77382           |
-|Meistelman 1987   |5.5    |20             |1.247                    |0.0033898               |1.247             |
-|Meistelman 1987   |7.7    |23             |1.7537                   |0.0024096               |1.7537            |
-|Meistelman 1987   |4.5    |14             |0.83022                  |0.0043478               |0.83022           |
-|Meistelman 1987   |4.8    |24             |0.99562                  |0.0054054               |0.99562           |
-|Meistelman 1987   |4.5    |20             |1.1192                   |0.0041667               |1.1192            |
-|Meistelman 1987   |6.2    |23             |1.0098                   |0.0045455               |1.0098            |
-|Meistelman 1987   |4.9    |22             |0.65818                  |0.0074074               |0.65818           |
+|Davis 1987        |1.2917 |8.9            |0.00047926               |0.00082873              |0.57831           |
+|Davis 1987        |0.43333|5.3            |0.00061984               |0.00054546              |1.1364            |
+|Guay 1991         |2.0833 |12.1           |6.8792e-05               |0.00010838              |0.63473           |
+|Guay 1991         |2.5833 |16             |4.1066e-05               |4.63e-05                |0.88696           |
+|Guay 1991         |2.6667 |11.3           |0.00010647               |8.92e-05                |1.1936            |
+|Guay 1991         |3.25   |16             |9.1426e-05               |8.26e-05                |1.1069            |
+|Guay 1991         |3.8333 |14.2           |5.933e-05                |6.63e-05                |0.89487           |
+|Guay 1991         |4.5833 |15             |4.6818e-05               |6.73e-05                |0.69566           |
+|Guay 1991         |4.5833 |19             |9.091e-05                |0.00013487              |0.67405           |
+|Guay 1991         |4.8333 |17.5           |9.2749e-05               |6.99e-05                |1.3269            |
+|Guay 1991         |5.25   |18.5           |4.7591e-05               |4.36e-05                |1.0915            |
+|Guay 1991         |5.25   |19.65          |9.3592e-05               |8.53e-05                |1.0972            |
+|Guay 1991         |5.3333 |24             |0.00012024               |0.0001355               |0.88743           |
+|Guay 1991         |5.3333 |24             |6.7177e-05               |7.55e-05                |0.88976           |
+|Guay 1991         |5.75   |14.5           |8.0929e-05               |0.00015183              |0.53302           |
+|Guay 1991         |5.9167 |28.2           |9.7562e-05               |0.00012754              |0.76494           |
+|Guay 1991         |5.9167 |25             |5.0598e-05               |5.71e-05                |0.88613           |
+|Guay 1991         |6.9167 |29.6           |6.545e-05                |6.17e-05                |1.0608            |
+|Guay 1991         |7.5    |23.5           |2.8416e-05               |3.5e-05                 |0.81188           |
+|Guay 1991         |7.5    |15.2           |7.7776e-05               |7.36e-05                |1.0567            |
+|Guay 1991         |8.75   |22.6           |5.5491e-05               |5.65e-05                |0.98214           |
+|den Hollander 1992|0.92   |6.5            |24.1081                  |21.1                    |1.1426            |
+|den Hollander 1992|0.83   |6.4            |24.3994                  |14                      |1.7428            |
+|den Hollander 1992|0.99   |8.5            |24.7886                  |19.8                    |1.2519            |
+|den Hollander 1992|0.3    |5.1            |31.5887                  |18.5                    |1.7075            |
+|den Hollander 1992|0.92   |6.149          |20.5799                  |15.9                    |1.2943            |
+|den Hollander 1992|1.3    |10.4           |24.6219                  |24.3                    |1.0132            |
+|den Hollander 1992|9      |25.6           |23.4494                  |11.3                    |2.0752            |
+|den Hollander 1992|3.5    |14.4           |22.2954                  |18.6                    |1.1987            |
+|den Hollander 1992|5.5    |19.5           |22.4836                  |20.7                    |1.0862            |
+|den Hollander 1992|3.5    |18.5           |23.9784                  |22.7                    |1.0563            |
+|Meistelman 1987   |4.7    |20             |0.00526                  |0.0058824               |0.89419           |
+|Meistelman 1987   |5.5    |20             |0.0048871                |0.0033898               |1.4417            |
+|Meistelman 1987   |7.7    |23             |0.0048787                |0.0024096               |2.0247            |
+|Meistelman 1987   |4.5    |14             |0.0041769                |0.0043478               |0.96069           |
+|Meistelman 1987   |4.8    |24             |0.0062172                |0.0054054               |1.1502            |
+|Meistelman 1987   |4.5    |20             |0.0053868                |0.0041667               |1.2928            |
+|Meistelman 1987   |6.2    |23             |0.0052995                |0.0045455               |1.1659            |
+|Meistelman 1987   |4.9    |22             |0.0056343                |0.0074074               |0.76063           |
 
 ## Chapter 2.1: Sufentanil PK Ratio tables and Figures
 ### Sufentanil model
@@ -154,37 +155,37 @@ The pediatric PBPK model predicted the clearance values of sufentanil observed i
 
 ![001_plotPKRatioAUC.png](images/002_Chapter_2__Pediatric_translation_qualification_results/001_Chapter_2_1__Sufentanil_PK_Ratio_tables_and_Figures/001_plotPKRatioAUC.png)
 
-GMFE (AUC) = 1.251766 
+GMFE (AUC) = 1.236324 
 
 |AUC                   |Number|Ratio [%]|
 |---------------------:|-----:|--------:|
 |Points total          |21    |-        |
-|Points within 1.5 fold|16    |76.1905  |
-|Points within 2-fold  |20    |95.2381  |
+|Points within 1.5 fold|18    |85.7143  |
+|Points within 2-fold  |21    |100      |
 
 |Study ID  |Age [y]|BodyWeight [kg]|Predicted AUC [mg*min/ml]|Observed AUC [mg*min/ml]|Pred/Obs AUC Ratio|
 |---------:|------:|--------------:|------------------------:|-----------------------:|-----------------:|
-|Davis 1987|1.2917 |8.9            |0.54048                  |0.00082873              |0.54048           |
-|Davis 1987|0.43333|5.3            |1.0284                   |0.00054546              |1.0284            |
-|Guay 1991 |2.0833 |12.1           |0.60119                  |0.00010838              |0.60119           |
-|Guay 1991 |2.5833 |16             |0.85776                  |4.63e-05                |0.85776           |
-|Guay 1991 |2.6667 |11.3           |1.1327                   |8.92e-05                |1.1327            |
-|Guay 1991 |3.25   |16             |1.0509                   |8.26e-05                |1.0509            |
-|Guay 1991 |3.8333 |14.2           |0.84204                  |6.63e-05                |0.84204           |
-|Guay 1991 |4.5833 |15             |0.66053                  |6.73e-05                |0.66053           |
-|Guay 1991 |4.5833 |19             |0.63325                  |0.00013487              |0.63325           |
-|Guay 1991 |4.8333 |17.5           |1.2509                   |6.99e-05                |1.2509            |
-|Guay 1991 |5.25   |18.5           |1.0375                   |4.36e-05                |1.0375            |
-|Guay 1991 |5.25   |19.65          |1.0358                   |8.53e-05                |1.0358            |
-|Guay 1991 |5.3333 |24             |0.8349                   |0.0001355               |0.8349            |
-|Guay 1991 |5.3333 |24             |0.8415                   |7.55e-05                |0.8415            |
-|Guay 1991 |5.75   |14.5           |0.49761                  |0.00015183              |0.49761           |
-|Guay 1991 |5.9167 |28.2           |0.72904                  |0.00012754              |0.72904           |
-|Guay 1991 |5.9167 |25             |0.84016                  |5.71e-05                |0.84016           |
-|Guay 1991 |6.9167 |29.6           |1.0091                   |6.17e-05                |1.0091            |
-|Guay 1991 |7.5    |23.5           |0.76862                  |3.5e-05                 |0.76862           |
-|Guay 1991 |7.5    |15.2           |0.99104                  |7.36e-05                |0.99104           |
-|Guay 1991 |8.75   |22.6           |0.92858                  |5.65e-05                |0.92858           |
+|Davis 1987|1.2917 |8.9            |0.00047926               |0.00082873              |0.57831           |
+|Davis 1987|0.43333|5.3            |0.00061984               |0.00054546              |1.1364            |
+|Guay 1991 |2.0833 |12.1           |6.8792e-05               |0.00010838              |0.63473           |
+|Guay 1991 |2.5833 |16             |4.1066e-05               |4.63e-05                |0.88696           |
+|Guay 1991 |2.6667 |11.3           |0.00010647               |8.92e-05                |1.1936            |
+|Guay 1991 |3.25   |16             |9.1426e-05               |8.26e-05                |1.1069            |
+|Guay 1991 |3.8333 |14.2           |5.933e-05                |6.63e-05                |0.89487           |
+|Guay 1991 |4.5833 |15             |4.6818e-05               |6.73e-05                |0.69566           |
+|Guay 1991 |4.5833 |19             |9.091e-05                |0.00013487              |0.67405           |
+|Guay 1991 |4.8333 |17.5           |9.2749e-05               |6.99e-05                |1.3269            |
+|Guay 1991 |5.25   |18.5           |4.7591e-05               |4.36e-05                |1.0915            |
+|Guay 1991 |5.25   |19.65          |9.3592e-05               |8.53e-05                |1.0972            |
+|Guay 1991 |5.3333 |24             |0.00012024               |0.0001355               |0.88743           |
+|Guay 1991 |5.3333 |24             |6.7177e-05               |7.55e-05                |0.88976           |
+|Guay 1991 |5.75   |14.5           |8.0929e-05               |0.00015183              |0.53302           |
+|Guay 1991 |5.9167 |28.2           |9.7562e-05               |0.00012754              |0.76494           |
+|Guay 1991 |5.9167 |25             |5.0598e-05               |5.71e-05                |0.88613           |
+|Guay 1991 |6.9167 |29.6           |6.545e-05                |6.17e-05                |1.0608            |
+|Guay 1991 |7.5    |23.5           |2.8416e-05               |3.5e-05                 |0.81188           |
+|Guay 1991 |7.5    |15.2           |7.7776e-05               |7.36e-05                |1.0567            |
+|Guay 1991 |8.75   |22.6           |5.5491e-05               |5.65e-05                |0.98214           |
 
 ## Chapter 2.2: Sufentanil Concentration-Time profiles in Children
 #### Concentration-Time Profiles
@@ -217,34 +218,34 @@ The pediatric PBPK model predicted the AUC values of alfentanil observed in pedi
 [1] Goresky GV, Koren G, Sabourin MA, Sale JP, Strunin L., The pharmacokinetics of alfentanil in children. Anesthesiology. 1987 Nov;67(5):654-9.
 ![001_plotPKRatioAUC.png](images/002_Chapter_2__Pediatric_translation_qualification_results/003_Chapter_2_3__Alfentanil_PK_Ratio_tables_and_Figures/001_plotPKRatioAUC.png)
 
-GMFE (AUC) = 1.257111 
+GMFE (AUC) = 1.306721 
 
 |AUC                   |Number|Ratio [%]|
 |---------------------:|-----:|--------:|
 |Points total          |18    |-        |
-|Points within 1.5 fold|13    |72.2222  |
-|Points within 2-fold  |18    |100      |
+|Points within 1.5 fold|14    |77.7778  |
+|Points within 2-fold  |16    |88.8889  |
 
 |Study ID          |Age [y]|BodyWeight [kg]|Predicted AUC [mg*min/l]|Observed AUC [mg*min/l]|Pred/Obs AUC Ratio|
 |-----------------:|------:|--------------:|-----------------------:|----------------------:|-----------------:|
-|den Hollander 1992|0.92   |6.5            |1.0835                  |21.1                   |1.0835            |
-|den Hollander 1992|0.83   |6.4            |1.6551                  |14                     |1.6551            |
-|den Hollander 1992|0.99   |8.5            |1.1878                  |19.8                   |1.1878            |
-|den Hollander 1992|0.3    |5.1            |1.654                   |18.5                   |1.654             |
-|den Hollander 1992|0.92   |6.149          |1.2302                  |15.9                   |1.2302            |
-|den Hollander 1992|1.3    |10.4           |0.96258                 |24.3                   |0.96258           |
-|den Hollander 1992|9      |25.6           |1.972                   |11.3                   |1.972             |
-|den Hollander 1992|3.5    |14.4           |1.1349                  |18.6                   |1.1349            |
-|den Hollander 1992|5.5    |19.5           |1.0307                  |20.7                   |1.0307            |
-|den Hollander 1992|3.5    |18.5           |1.0082                  |22.7                   |1.0082            |
-|Meistelman 1987   |4.7    |20             |0.77382                 |0.0058824              |0.77382           |
-|Meistelman 1987   |5.5    |20             |1.247                   |0.0033898              |1.247             |
-|Meistelman 1987   |7.7    |23             |1.7537                  |0.0024096              |1.7537            |
-|Meistelman 1987   |4.5    |14             |0.83022                 |0.0043478              |0.83022           |
-|Meistelman 1987   |4.8    |24             |0.99562                 |0.0054054              |0.99562           |
-|Meistelman 1987   |4.5    |20             |1.1192                  |0.0041667              |1.1192            |
-|Meistelman 1987   |6.2    |23             |1.0098                  |0.0045455              |1.0098            |
-|Meistelman 1987   |4.9    |22             |0.65818                 |0.0074074              |0.65818           |
+|den Hollander 1992|0.92   |6.5            |24.1081                 |21.1                   |1.1426            |
+|den Hollander 1992|0.83   |6.4            |24.3994                 |14                     |1.7428            |
+|den Hollander 1992|0.99   |8.5            |24.7886                 |19.8                   |1.2519            |
+|den Hollander 1992|0.3    |5.1            |31.5887                 |18.5                   |1.7075            |
+|den Hollander 1992|0.92   |6.149          |20.5799                 |15.9                   |1.2943            |
+|den Hollander 1992|1.3    |10.4           |24.6219                 |24.3                   |1.0132            |
+|den Hollander 1992|9      |25.6           |23.4494                 |11.3                   |2.0752            |
+|den Hollander 1992|3.5    |14.4           |22.2954                 |18.6                   |1.1987            |
+|den Hollander 1992|5.5    |19.5           |22.4836                 |20.7                   |1.0862            |
+|den Hollander 1992|3.5    |18.5           |23.9784                 |22.7                   |1.0563            |
+|Meistelman 1987   |4.7    |20             |0.00526                 |0.0058824              |0.89419           |
+|Meistelman 1987   |5.5    |20             |0.0048871               |0.0033898              |1.4417            |
+|Meistelman 1987   |7.7    |23             |0.0048787               |0.0024096              |2.0247            |
+|Meistelman 1987   |4.5    |14             |0.0041769               |0.0043478              |0.96069           |
+|Meistelman 1987   |4.8    |24             |0.0062172               |0.0054054              |1.1502            |
+|Meistelman 1987   |4.5    |20             |0.0053868               |0.0041667              |1.2928            |
+|Meistelman 1987   |6.2    |23             |0.0052995               |0.0045455              |1.1659            |
+|Meistelman 1987   |4.9    |22             |0.0056343               |0.0074074              |0.76063           |
 
 ## Chapter 2.4: Alfentanil Concentration-Time profiles in Children
 #### Concentration-Time Profiles
@@ -323,11 +324,11 @@ Below you find the input goodness-of-fit visual diagnostic plots for sufentanil 
 
 ![001_plotGOFMergedPredictedVsObserved.png](images/003_Chapter_3__Adult_PBPK_model_building_and_performance/002_Chapter_3_2__Sufentanil_Diagnostics_Plots/001_plotGOFMergedPredictedVsObserved.png)
 
-GMFE = 1.402222 
+GMFE = 1.389230 
 
 ![003_plotGOFMergedResidualsOverTime.png](images/003_Chapter_3__Adult_PBPK_model_building_and_performance/002_Chapter_3_2__Sufentanil_Diagnostics_Plots/003_plotGOFMergedResidualsOverTime.png)
 
-GMFE = 1.402222 
+GMFE = 1.389230 
 
 ## Chapter 3.3: Sufentanil Concentration-Time profiles in Adults
 #### Concentration-Time Profiles

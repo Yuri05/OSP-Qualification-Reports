@@ -3,11 +3,11 @@
 
 
 
-| Version                         | 1.1-OSP9.1                                                   |
+| Version                         | x.x-OSPy.y                                                   |
 | ------------------------------- | ------------------------------------------------------------ |
-| Qualification Plan Release      | https://github.com/Open-Systems-Pharmacology/Pediatric_Qualification_Package_GFR_Ontogeny/releases/tag/v1.1 |
-| OSP Version                     | 9.1                                                          |
-| Qualification Framework Version | 2.2                                                          |
+| Qualification Plan Release      | https://github.com/Open-Systems-Pharmacology/Pediatric_Qualification_Package_GFR_Ontogeny/releases/tag/vx.x |
+| OSP Version                     | y.y                                                          |
+| Qualification Framework Version | z.z                                                          |
 
 
 
@@ -73,6 +73,7 @@ For the qualification of the GFR elimination of compounds, the following probe s
 [4] [Amikacin-Model, Whole-body PBPK model of Amikacin. https://github.com/Open-Systems-Pharmacology/Amikacin-Model](https://github.com/incei/Amikacin-Model)
 
 [5] [Vancomycin-Model, Whole-body PBPK model of Vancomycin. https://github.com/Open-Systems-Pharmacology/Amikacin-Model](https://github.com/incei/Vancomycin-Model)
+
 # Chapter 2: Pediatric translation qualification
 ## Evaluation of Pediatric translation
 
@@ -101,45 +102,45 @@ GMFE (CL) = 1.258017
 
 |Study ID       |Age [y]  |BodyWeight [kg]|Predicted CL [ml/min/kg]|Observed CL [ml/min/kg]|Pred/Obs CL Ratio|
 |--------------:|--------:|--------------:|-----------------------:|----------------------:|----------------:|
-|Vogelstein 1977|15       |77             |0.71181                 |1.74                   |0.71181          |
-|Vogelstein 1977|15       |62.5           |0.95476                 |1.44                   |0.95476          |
-|Vogelstein 1977|9        |21.5           |0.83703                 |2.56                   |0.83703          |
-|Vogelstein 1977|13       |51             |1.0188                  |1.35                   |1.0188           |
-|Vogelstein 1977|12       |27.1902        |0.93839                 |2.64                   |0.93839          |
-|Vogelstein 1977|7        |27.4           |0.81617                 |2.19                   |0.81617          |
-|Vogelstein 1977|4        |14             |0.58013                 |4.22                   |0.58013          |
-|Vogelstein 1977|6        |17.3           |0.94756                 |2.63                   |0.94756          |
-|Vogelstein 1977|6        |15.5           |0.61107                 |4.26                   |0.61107          |
-|Vogelstein 1977|7        |15.9           |1.1941                  |2.3                    |1.1941           |
-|Vogelstein 1977|14       |39.5           |0.95879                 |1.91                   |0.95879          |
-|Vogelstein 1977|10       |32.8           |0.83954                 |2.3                    |0.83954          |
-|Vogelstein 1977|14       |45.5           |0.80729                 |2.23                   |0.80729          |
-|Vogelstein 1977|11       |35.2           |0.73927                 |2.58                   |0.73927          |
-|Vogelstein 1977|13       |27.7           |0.77547                 |2.86                   |0.77547          |
-|Vogelstein 1977|8        |20.8           |0.86162                 |2.88                   |0.86162          |
-|Vogelstein 1977|6        |15.5           |0.77799                 |3.31                   |0.77799          |
-|Vogelstein 1977|13       |49             |0.75956                 |1.88                   |0.75956          |
-|Vogelstein 1977|7        |20.6           |1.1459                  |2.06                   |1.1459           |
-|Vogelstein 1977|16       |35.0809        |0.89535                 |2.47                   |0.89535          |
-|Treluyer 2002  |0.013333 |3.5867         |1.3259                  |0.053                  |1.3259           |
-|Treluyer 2002  |0.04     |3.76           |1.1067                  |0.073                  |1.1067           |
-|Treluyer 2002  |0.065833 |3.9279         |0.97612                 |0.095                  |0.97612          |
-|Treluyer 2002  |0.079167 |4.0146         |0.9348                  |0.106                  |0.9348           |
-|Treluyer 2002  |0.10583  |4.1879         |0.94232                 |0.118                  |0.94232          |
-|Treluyer 2002  |0.14583  |4.4479         |1.0535                  |0.12                   |1.0535           |
-|Treluyer 2002  |0.51583  |6.8529         |1.1539                  |0.127                  |1.1539           |
-|Treluyer 2002  |0.7675   |8.4888         |0.96098                 |0.15                   |0.96098          |
-|Treluyer 2002  |2.0242   |12.3044        |0.74412                 |0.181                  |0.74412          |
-|Treluyer 2002  |4.0608   |16.8869        |0.66347                 |0.19                   |0.66347          |
-|Treluyer 2002  |6.085    |21.821         |0.6195                  |0.196                  |0.6195           |
-|Treluyer 2002  |7.09     |24.434         |0.67841                 |0.177                  |0.67841          |
-|Belfayol 1996  |7        |23.5           |0.82769                 |56.3                   |0.82769          |
-|Schaad 1980    |0.0071184|3.07           |1.1238                  |3.6416                 |1.1238           |
-|Schaad 1980    |0.25833  |4.9            |1.3072                  |8.0925                 |1.3072           |
-|Schaad 1980    |0.35833  |5.2            |0.84901                 |14.0462                |0.84901          |
-|Schaad 1980    |3.917    |15.5           |0.47009                 |61.2428                |0.47009          |
-|Schaad 1980    |5.583    |20             |0.5881                  |59.0636                |0.5881           |
-|Schaad 1980    |7.583    |26.7           |0.57141                 |74.3584                |0.57141          |
+|Vogelstein 1977|15       |77             |1.2386                  |1.74                   |0.71181          |
+|Vogelstein 1977|15       |62.5           |1.3748                  |1.44                   |0.95476          |
+|Vogelstein 1977|9        |21.5           |2.1428                  |2.56                   |0.83703          |
+|Vogelstein 1977|13       |51             |1.3754                  |1.35                   |1.0188           |
+|Vogelstein 1977|12       |27.1902        |2.4773                  |2.64                   |0.93839          |
+|Vogelstein 1977|7        |27.4           |1.7874                  |2.19                   |0.81617          |
+|Vogelstein 1977|4        |14             |2.4482                  |4.22                   |0.58013          |
+|Vogelstein 1977|6        |17.3           |2.4921                  |2.63                   |0.94756          |
+|Vogelstein 1977|6        |15.5           |2.6032                  |4.26                   |0.61107          |
+|Vogelstein 1977|7        |15.9           |2.7463                  |2.3                    |1.1941           |
+|Vogelstein 1977|14       |39.5           |1.8313                  |1.91                   |0.95879          |
+|Vogelstein 1977|10       |32.8           |1.9309                  |2.3                    |0.83954          |
+|Vogelstein 1977|14       |45.5           |1.8002                  |2.23                   |0.80729          |
+|Vogelstein 1977|11       |35.2           |1.9073                  |2.58                   |0.73927          |
+|Vogelstein 1977|13       |27.7           |2.2178                  |2.86                   |0.77547          |
+|Vogelstein 1977|8        |20.8           |2.4815                  |2.88                   |0.86162          |
+|Vogelstein 1977|6        |15.5           |2.5751                  |3.31                   |0.77799          |
+|Vogelstein 1977|13       |49             |1.428                   |1.88                   |0.75956          |
+|Vogelstein 1977|7        |20.6           |2.3606                  |2.06                   |1.1459           |
+|Vogelstein 1977|16       |35.0809        |2.2115                  |2.47                   |0.89535          |
+|Treluyer 2002  |0.013333 |3.5867         |0.070272                |0.053                  |1.3259           |
+|Treluyer 2002  |0.04     |3.76           |0.080791                |0.073                  |1.1067           |
+|Treluyer 2002  |0.065833 |3.9279         |0.092732                |0.095                  |0.97612          |
+|Treluyer 2002  |0.079167 |4.0146         |0.099088                |0.106                  |0.9348           |
+|Treluyer 2002  |0.10583  |4.1879         |0.11119                 |0.118                  |0.94232          |
+|Treluyer 2002  |0.14583  |4.4479         |0.12642                 |0.12                   |1.0535           |
+|Treluyer 2002  |0.51583  |6.8529         |0.14655                 |0.127                  |1.1539           |
+|Treluyer 2002  |0.7675   |8.4888         |0.14415                 |0.15                   |0.96098          |
+|Treluyer 2002  |2.0242   |12.3044        |0.13469                 |0.181                  |0.74412          |
+|Treluyer 2002  |4.0608   |16.8869        |0.12606                 |0.19                   |0.66347          |
+|Treluyer 2002  |6.085    |21.821         |0.12142                 |0.196                  |0.6195           |
+|Treluyer 2002  |7.09     |24.434         |0.12008                 |0.177                  |0.67841          |
+|Belfayol 1996  |7        |23.5           |46.5991                 |56.3                   |0.82769          |
+|Schaad 1980    |0.0071184|3.07           |4.0924                  |3.6416                 |1.1238           |
+|Schaad 1980    |0.25833  |4.9            |10.5784                 |8.0925                 |1.3072           |
+|Schaad 1980    |0.35833  |5.2            |11.9254                 |14.0462                |0.84901          |
+|Schaad 1980    |3.917    |15.5           |28.7895                 |61.2428                |0.47009          |
+|Schaad 1980    |5.583    |20             |34.7354                 |59.0636                |0.5881           |
+|Schaad 1980    |7.583    |26.7           |42.4893                 |74.3584                |0.57141          |
 
 ## Chapter 2.1: Amikacin PK Ratio tables and Figures
 ### Amikacin model
@@ -165,39 +166,39 @@ GMFE (CL) = 1.219861
 
 |Study ID       |Age [y] |BodyWeight [kg]|Predicted CL [ml/min/kg]|Observed CL [ml/min/kg]|Pred/Obs CL Ratio|
 |--------------:|-------:|--------------:|-----------------------:|----------------------:|----------------:|
-|Vogelstein 1977|15      |77             |0.71181                 |1.74                   |0.71181          |
-|Vogelstein 1977|15      |62.5           |0.95476                 |1.44                   |0.95476          |
-|Vogelstein 1977|9       |21.5           |0.83703                 |2.56                   |0.83703          |
-|Vogelstein 1977|13      |51             |1.0188                  |1.35                   |1.0188           |
-|Vogelstein 1977|12      |27.1902        |0.93839                 |2.64                   |0.93839          |
-|Vogelstein 1977|7       |27.4           |0.81617                 |2.19                   |0.81617          |
-|Vogelstein 1977|4       |14             |0.58013                 |4.22                   |0.58013          |
-|Vogelstein 1977|6       |17.3           |0.94756                 |2.63                   |0.94756          |
-|Vogelstein 1977|6       |15.5           |0.61107                 |4.26                   |0.61107          |
-|Vogelstein 1977|7       |15.9           |1.1941                  |2.3                    |1.1941           |
-|Vogelstein 1977|14      |39.5           |0.95879                 |1.91                   |0.95879          |
-|Vogelstein 1977|10      |32.8           |0.83954                 |2.3                    |0.83954          |
-|Vogelstein 1977|14      |45.5           |0.80729                 |2.23                   |0.80729          |
-|Vogelstein 1977|11      |35.2           |0.73927                 |2.58                   |0.73927          |
-|Vogelstein 1977|13      |27.7           |0.77547                 |2.86                   |0.77547          |
-|Vogelstein 1977|8       |20.8           |0.86162                 |2.88                   |0.86162          |
-|Vogelstein 1977|6       |15.5           |0.77799                 |3.31                   |0.77799          |
-|Vogelstein 1977|13      |49             |0.75956                 |1.88                   |0.75956          |
-|Vogelstein 1977|7       |20.6           |1.1459                  |2.06                   |1.1459           |
-|Vogelstein 1977|16      |35.0809        |0.89535                 |2.47                   |0.89535          |
-|Treluyer 2002  |0.013333|3.5867         |1.3259                  |0.053                  |1.3259           |
-|Treluyer 2002  |0.04    |3.76           |1.1067                  |0.073                  |1.1067           |
-|Treluyer 2002  |0.065833|3.9279         |0.97612                 |0.095                  |0.97612          |
-|Treluyer 2002  |0.079167|4.0146         |0.9348                  |0.106                  |0.9348           |
-|Treluyer 2002  |0.10583 |4.1879         |0.94232                 |0.118                  |0.94232          |
-|Treluyer 2002  |0.14583 |4.4479         |1.0535                  |0.12                   |1.0535           |
-|Treluyer 2002  |0.51583 |6.8529         |1.1539                  |0.127                  |1.1539           |
-|Treluyer 2002  |0.7675  |8.4888         |0.96098                 |0.15                   |0.96098          |
-|Treluyer 2002  |2.0242  |12.3044        |0.74412                 |0.181                  |0.74412          |
-|Treluyer 2002  |4.0608  |16.8869        |0.66347                 |0.19                   |0.66347          |
-|Treluyer 2002  |6.085   |21.821         |0.6195                  |0.196                  |0.6195           |
-|Treluyer 2002  |7.09    |24.434         |0.67841                 |0.177                  |0.67841          |
-|Belfayol 1996  |7       |23.5           |0.82769                 |56.3                   |0.82769          |
+|Vogelstein 1977|15      |77             |1.2386                  |1.74                   |0.71181          |
+|Vogelstein 1977|15      |62.5           |1.3748                  |1.44                   |0.95476          |
+|Vogelstein 1977|9       |21.5           |2.1428                  |2.56                   |0.83703          |
+|Vogelstein 1977|13      |51             |1.3754                  |1.35                   |1.0188           |
+|Vogelstein 1977|12      |27.1902        |2.4773                  |2.64                   |0.93839          |
+|Vogelstein 1977|7       |27.4           |1.7874                  |2.19                   |0.81617          |
+|Vogelstein 1977|4       |14             |2.4482                  |4.22                   |0.58013          |
+|Vogelstein 1977|6       |17.3           |2.4921                  |2.63                   |0.94756          |
+|Vogelstein 1977|6       |15.5           |2.6032                  |4.26                   |0.61107          |
+|Vogelstein 1977|7       |15.9           |2.7463                  |2.3                    |1.1941           |
+|Vogelstein 1977|14      |39.5           |1.8313                  |1.91                   |0.95879          |
+|Vogelstein 1977|10      |32.8           |1.9309                  |2.3                    |0.83954          |
+|Vogelstein 1977|14      |45.5           |1.8002                  |2.23                   |0.80729          |
+|Vogelstein 1977|11      |35.2           |1.9073                  |2.58                   |0.73927          |
+|Vogelstein 1977|13      |27.7           |2.2178                  |2.86                   |0.77547          |
+|Vogelstein 1977|8       |20.8           |2.4815                  |2.88                   |0.86162          |
+|Vogelstein 1977|6       |15.5           |2.5751                  |3.31                   |0.77799          |
+|Vogelstein 1977|13      |49             |1.428                   |1.88                   |0.75956          |
+|Vogelstein 1977|7       |20.6           |2.3606                  |2.06                   |1.1459           |
+|Vogelstein 1977|16      |35.0809        |2.2115                  |2.47                   |0.89535          |
+|Treluyer 2002  |0.013333|3.5867         |0.070272                |0.053                  |1.3259           |
+|Treluyer 2002  |0.04    |3.76           |0.080791                |0.073                  |1.1067           |
+|Treluyer 2002  |0.065833|3.9279         |0.092732                |0.095                  |0.97612          |
+|Treluyer 2002  |0.079167|4.0146         |0.099088                |0.106                  |0.9348           |
+|Treluyer 2002  |0.10583 |4.1879         |0.11119                 |0.118                  |0.94232          |
+|Treluyer 2002  |0.14583 |4.4479         |0.12642                 |0.12                   |1.0535           |
+|Treluyer 2002  |0.51583 |6.8529         |0.14655                 |0.127                  |1.1539           |
+|Treluyer 2002  |0.7675  |8.4888         |0.14415                 |0.15                   |0.96098          |
+|Treluyer 2002  |2.0242  |12.3044        |0.13469                 |0.181                  |0.74412          |
+|Treluyer 2002  |4.0608  |16.8869        |0.12606                 |0.19                   |0.66347          |
+|Treluyer 2002  |6.085   |21.821         |0.12142                 |0.196                  |0.6195           |
+|Treluyer 2002  |7.09    |24.434         |0.12008                 |0.177                  |0.67841          |
+|Belfayol 1996  |7       |23.5           |46.5991                 |56.3                   |0.82769          |
 
 ## Chapter 2.2: Amikacin Concentration-Time profiles in Children
 #### Concentration-Time Profiles
@@ -225,12 +226,12 @@ GMFE (CL) = 1.490238
 
 |Study ID   |Age [y]  |BodyWeight [kg]|Predicted CL [ml/min]|Observed CL [ml/min]|Pred/Obs CL Ratio|
 |----------:|--------:|--------------:|--------------------:|-------------------:|----------------:|
-|Schaad 1980|0.0071184|3.07           |1.1238               |3.6416              |1.1238           |
-|Schaad 1980|0.25833  |4.9            |1.3072               |8.0925              |1.3072           |
-|Schaad 1980|0.35833  |5.2            |0.84901              |14.0462             |0.84901          |
-|Schaad 1980|3.917    |15.5           |0.47009              |61.2428             |0.47009          |
-|Schaad 1980|5.583    |20             |0.5881               |59.0636             |0.5881           |
-|Schaad 1980|7.583    |26.7           |0.57141              |74.3584             |0.57141          |
+|Schaad 1980|0.0071184|3.07           |4.0924               |3.6416              |1.1238           |
+|Schaad 1980|0.25833  |4.9            |10.5784              |8.0925              |1.3072           |
+|Schaad 1980|0.35833  |5.2            |11.9254              |14.0462             |0.84901          |
+|Schaad 1980|3.917    |15.5           |28.7895              |61.2428             |0.47009          |
+|Schaad 1980|5.583    |20             |34.7354              |59.0636             |0.5881           |
+|Schaad 1980|7.583    |26.7           |42.4893              |74.3584             |0.57141          |
 
 ## Chapter 2.4: Vancomycin Concentration-Time profiles in Children
 #### Concentration-Time Profiles
@@ -269,7 +270,7 @@ The PBPK models of **amikacin**, and **vancomycin** were developed with clinical
 ## Chapter 3.1: Amikacin Input Tables
 ### Amikacin adult PBPK model
 
-Amikacin is a semi-synthetic aminoglycoside antibiotic used for a number of bacterial infections. Amikacin is adminstered in several forms, including intravenous or intramuscular injection. The PBPK of Amikacin has been previously developed in PK-Sim using clinical studies in preterm-neonates. [1] Here we have evaluated its predictive performance of glomerular filtration rate (GFR) mediated clearance in adults and term born children. In this chapter we show that amikacin adequately described the pharmacokinetics of amikacin in adults, based on the PBPK model build and reported in preterm-neonates.
+Amikacin is a semi-synthetic aminoglycoside antibiotic used for a number of bacterial infections. Amikacin is administered in several forms, including intravenous or intramuscular injection. The PBPK of Amikacin has been previously developed in PK-Sim using clinical studies in preterm-neonates. [1] Here we have evaluated its predictive performance of glomerular filtration rate (GFR) mediated clearance in adults and term born children. In this chapter we show that amikacin adequately described the pharmacokinetics of amikacin in adults, based on the PBPK model build and reported in preterm-neonates.
 
 The Amikacin model was evaluated in its performance in adults using data of the following  publication:
 
@@ -331,9 +332,9 @@ Simulated versus observed plasma concentration-time profiles of all data are lis
 ## Chapter 3.3: Vancomycin Input Tables
 ### Vancomycin adult PBPK model
 
-Vancomycin is a glycopeptide antibiotic related to ristocetin that inhibits bacterial cell wall assembly and is used to treat a number of bacterial infections. It can be administered intravenously, as well as orally in case of diarrhea therapy. Vancomyin is mainly eliminated via glomerular filtration (GFR). A previous PBPK model for vancomycin using PK-Sim was reported by Radke et al. [1], with the dose fraction extreted unchanged into urine in adults beeing 90% with 10% hepatic elimination. Our final vancomycin model was rebuild that applies only GFR mediated clearance that adequately described the pharmacokinetics in adults. No further improvement of vancomycin pharmacokinetics could be determined after introducing hepatic clearance.
+Vancomycin is a glycopeptide antibiotic related to ristocetin that inhibits bacterial cell wall assembly and is used to treat a number of bacterial infections. It can be administered intravenously, as well as orally in case of diarrhea therapy. Vancomycin is mainly eliminated via glomerular filtration (GFR). A previous PBPK model for vancomycin using PK-Sim was reported by Radke et al. [1], with the dose fraction excreted unchanged into urine in adults being 90% with 10% hepatic elimination. Our final vancomycin model was rebuild that applies only GFR mediated clearance that adequately described the pharmacokinetics in adults. No further improvement of vancomycin pharmacokinetics could be determined after introducing hepatic clearance.
 
-The vancomyin model was developed using data of the following publications:
+The Vancomycin model was developed using data of the following publications:
 
 - Boeckh M, Lode H, Borner K, Höffken G, Wagner J, Koeppe P. Pharmacokinetics and serum bactericidal activity of vancomycin alone and in combination with ceftazidime in healthy volunteers. Antimicrob Agents Chemother. 1988 Jan;32(1):92-5.
 
