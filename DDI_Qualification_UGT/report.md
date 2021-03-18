@@ -3,11 +3,11 @@
 
 
 
-| Version                         | 1.1-OSP9.1                                                   |
+| Version                         | x.x-OSPy.y                                                   |
 | ------------------------------- | ------------------------------------------------------------ |
-| Qualification Plan Release      | https://github.com/Open-Systems-Pharmacology/Qualification-DDI-UGT/releases/tag/v1.1 |
-| OSP Version                     | 9.1                                                          |
-| Qualification Framework Version | 2.2                                                          |
+| Qualification Plan Release      | https://github.com/Open-Systems-Pharmacology/Qualification-DDI-UGT/releases/tag/vx.x |
+| OSP Version                     | y.y                                                          |
+| Qualification Framework Version | z.z                                                          |
 
 
 
@@ -45,11 +45,11 @@ The respective *qualification plan* to produce this *qualification report* is tr
 
 Please refer to the [Appendix](#5-Appendix) to learn more details:
 
-- An overview over the Open Systems Pharmacology Suite is given in chapter [Section 5.1](#51-Open-Systems-Pharmacology-Suite-(OSPS)-Introduction)
+- An overview over the Open Systems Pharmacology Suite is given in chapter [Section 5.1](#51-Open-Systems-Pharmacology-Suite-OSPS-Introduction)
 
 - [Section 5.2](#52-Mathematical-Implementation-of-Drug-Drug-Interactions) shows the implementation of the underlying mathematical equations for drug-drug interactions in the OSP suite.
 
-- A detailed general description of the performed qualification workflow (*qualification plan*, *qualification report*, etc.) can be found in chapter [Section 5.3](#53-Automatic-(re)-qualification-workflow).
+- A detailed general description of the performed qualification workflow (*qualification plan*, *qualification report*, etc.) can be found in chapter [Section 5.3](#53-Automatic-re-qualification-workflow).
 ## 1.2 UGT DDI Network
 The following perpetrator compounds were selected:
 
@@ -112,9 +112,9 @@ The mefenamic acid / dapagliflozin interaction was evaluated using 1 clinical DD
 
 ![004_plotDDIRatioCMAXResidualsVsObserved.png](images/002_2_Qualification_of_Use_Case_UGT-mediated_DDI/004_plotDDIRatioCMAXResidualsVsObserved.png)
 
-GMFE (AUC) = 1.138014 
+GMFE (AUC) = 1.137938 
 
-GMFE (CMAX) = 1.103227 
+GMFE (CMAX) = 1.102996 
 
 |AUC                       |Number|Ratio [%]|
 |-------------------------:|-----:|--------:|
@@ -130,10 +130,10 @@ GMFE (CMAX) = 1.103227
 
 |DataID|Perpetrator                                                                       |Victim           |Predicted AUC Ratio|Observed AUC Ratio|Pred/Obs AUC Ratio|Predicted CMAX Ratio|Observed CMAX Ratio|Pred/Obs CMAX Ratio|Reference          |
 |-----:|---------------------------------------------------------------------------------:|----------------:|------------------:|-----------------:|-----------------:|-------------------:|------------------:|------------------:|------------------:|
-|571   |Atazanavir, 400 mg, PO, MD OD (9 days)                                            |Raltegravir, PO  |1.4687             |1.72              |0.85389           |1.3545              |1.53               |0.88529            |Iwamoto 2008       |
-|575   |Atazanavir, 400 mg, PO, MD OD (9 days)                                            |Raltegravir, PO  |1.4199             |1.67              |0.85022           |1.3294              |1.16               |1.146              |Krishna 2016       |
-|573   |Atazanavir, 400 mg, PO, MD OD (8 days)                                            |Raltegravir, PO  |1.4384             |1.72              |0.83626           |1.1161              |1.37               |0.8147             |Neely 2010         |
-|579   |Atazanavir, 400 mg, PO, MD BID (14 days)                                          |Raltegravir, PO  |1.5651             |1.536             |1.0189            |1.3867              |1.394              |0.99475            |Zhu 2010           |
+|571   |Atazanavir, 400 mg, PO, MD OD (9 days)                                            |Raltegravir, PO  |1.4686             |1.72              |0.85385           |1.3544              |1.53               |0.88524            |Iwamoto 2008       |
+|575   |Atazanavir, 400 mg, PO, MD OD (9 days)                                            |Raltegravir, PO  |1.4198             |1.67              |0.85015           |1.3293              |1.16               |1.1459             |Krishna 2016       |
+|573   |Atazanavir, 400 mg, PO, MD OD (8 days)                                            |Raltegravir, PO  |1.4393             |1.72              |0.83682           |1.1171              |1.37               |0.81539            |Neely 2010         |
+|579   |Atazanavir, 400 mg, PO, MD BID (14 days)                                          |Raltegravir, PO  |1.5654             |1.536             |1.0191            |1.3869              |1.394              |0.99493            |Zhu 2010           |
 |642   |Mefenamic Acid, 500 / 250 mg, PO, MD QID (4 days), with first dose ad loading dose|Dapagliflozin, PO|1.3277             |1.51              |0.87928           |1.1561              |1.13               |1.0231             |Kasichayanula 2013a|
 
 # 3 Concentration-Time Profiles
